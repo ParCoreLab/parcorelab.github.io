@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "clean": "rimraf docs/.observablehq/cache",
-    "build": "rimraf dist && tailwind -i docs/style.css -o dist/style.css && observable build",
+    "build": "rimraf dist && observable build",
     "dev": "observable preview",
     "deploy": "observable deploy",
     "observable": "observable"
