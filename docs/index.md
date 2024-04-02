@@ -423,3 +423,5 @@ Project Repositories
 
 
 </div>
+
+<img class="hidden none" src="./assets/erc_logo-150x150.png" />
