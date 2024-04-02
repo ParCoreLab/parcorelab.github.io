@@ -382,37 +382,44 @@ id="rect82" width="47.264641" height="259.80017" x="-307.37561" y="-456.49554" t
     </div>
 </div>
 
-<div class="grid grid-rows-4 grid-cols-4">
 
-<div class="card">
-
-## [CPU Free Model](https://github.com/ParCoreLab/CPU-Free-model)
-
+<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+Project Repositories
 </div>
-<div class="card">
+<hr>
 
-## Benchmarks
+<div class="grid grid-cols-3">
 
-</div>
-<div class="card">
-
-## [Snoopie](https://github.com/ParCoreLab/snoopie)
-
-</div>
-<div class="card">
-
-## [Javid's compiler (dace)](https://github.com/ParCoreLab/dace)
-
-</div>
-<div class="card">
-
-## Ilya's CUDA Graph
-
+<div class="card flex gap-5 justify-start items-center align-middle">
+<img width="32" src="./assets/git.webp" />
+<a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-lg font-semibold font-serif visited:text-blue-900">CPU Free Model</a>
 </div>
 
-<div class="card">
 
-## Callback (workshop paper)
-
+<div class="card flex gap-5 justify-start items-center align-middle">
+<img width="32" src="./assets/git.webp" />
+<a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-lg font-semibold font-serif visited:text-blue-900">Benchmarks</a>
 </div>
+
+<div class="card flex gap-5 justify-start items-center align-middle">
+<img width="32" src="./assets/git.webp" />
+<a href="https://github.com/ParCoreLab/snoopie" class="text-lg font-semibold font-serif visited:text-blue-900">Snoopie</a>
+</div>
+
+<div class="card flex gap-5 justify-start items-center align-middle">
+<img width="32" src="./assets/git.webp" />
+<a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">CPU Free Infused Dace</a>
+</div>
+
+<div class="card flex gap-5 justify-start items-center align-middle">
+<img width="32" src="./assets/git.webp" />
+<a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">Ilya's CUDA Graph</a>
+</div>
+
+<div class="card flex gap-5 justify-start items-center align-middle">
+<img width="32" src="./assets/git.webp" />
+<a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">Callback (workshop paper)</a>
+</div>
+
+
 </div>

@@ -20,6 +20,13 @@ export default {
   // theme: "default", // try "light", "dark", "slate", etc.
   header: `
 <script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  corePlugins: {
+    preflight: false,
+  }
+}
+</script>
 
 <div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: -1.5rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
 <a href="/">
@@ -42,7 +49,7 @@ export default {
 
   // "<div class=\"grid grid-cols-2\"><div><h1>Beyond-Moore</h1></div> <div><div>About</div><div class=\"grid grid-cols-auto\">Publications</div><div>Team</div><div>News</div></div></div>", // what to show in the header (HTML)
   footer: `<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin: -8rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
-   <span class="w-[80%]>
+   <span class="w-[80%]">
      This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 949587).
    </span>
   <img src="./_file/erc_logo-150x150.png" alt="ERC Logo" height="100" width="100"/>
