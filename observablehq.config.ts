@@ -19,26 +19,37 @@ export default {
   // Some additional configuration options and their defaults:
   // theme: "default", // try "light", "dark", "slate", etc.
   header: `
+<script src="https://cdn.tailwindcss.com"></script>
+
 <div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: -1.5rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
+<a href="/">
    <h1>
-     Beyond-Moore
+      BeyondMoore
    </h1>
+   </a>
    <div style="display: flex; flex-grow: 1; justify-content: space-between; align-items: baseline;">
+
       <span>
       </span>
-      <span style="display: flex; align-items: baseline; gap: 0.5rem">
-        <a target="_blank"><h4><span>About</span></h4></a>
-        <a target="_blank"><h4><span>News</span></h4></a>
-        <a target="_blank"><h4><span>Team</span></h4></a>
-        <a target="_blank"><h4><span>Publications</span></h4></a>
+      <span style="display: flex; align-items: baseline; gap: 1.0rem">
+        <a href="abstract"><h4><span>Abstract</span></h4></a>
+        <a href="publications"><h4><span>Publications</span></h4></a>
+        <a href="news"><h4><span>News</span></h4></a>
+        <a href="team"><h4><span>Team</span></h4></a>
       </span>
    </div>
 </div>`,
 
   // "<div class=\"grid grid-cols-2\"><div><h1>Beyond-Moore</h1></div> <div><div>About</div><div class=\"grid grid-cols-auto\">Publications</div><div>Team</div><div>News</div></div></div>", // what to show in the header (HTML)
-  // footer: "Built with Observable.", // what to show in the footer (HTML)
+  footer: `<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin: -8rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
+   <span class="w-[80%]>
+     This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 949587).
+   </span>
+  <img src="./_file/erc_logo-150x150.png" alt="ERC Logo" height="100" width="100"/>
+</div>`,
+
   // toc: true, // whether to show the table of contents
-  // pager: true, // whether to show previous & next links in the footer
+  pager: false, // whether to show previous & next links in the footer
   // root: "docs", // path to the source root for preview
   // output: "dist", // path to the output root for build
   search: true, // activate search
