@@ -398,7 +398,7 @@ Project Repositories
 
 <div class="card flex gap-5 justify-start items-center align-middle">
 <img width="32" src="./assets/git.webp" />
-<a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-lg font-semibold font-serif visited:text-blue-900">Benchmarks</a>
+<a href="https://github.com/ParCoreLab/gpu-pure-comm-benchmark" class="text-lg font-semibold font-serif visited:text-blue-900">Benchmarks</a>
 </div>
 
 <div class="card flex gap-5 justify-start items-center align-middle">
@@ -418,7 +418,7 @@ Project Repositories
 
 <div class="card flex gap-5 justify-start items-center align-middle">
 <img width="32" src="./assets/git.webp" />
-<a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">Callback (workshop paper)</a>
+<a href="https://github.com/msasongko17/multigpu_callback" class="text-lg font-semibold font-serif visited:text-blue-900">Multi-GPU Callbacks</a>
 </div>
 
 

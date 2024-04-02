@@ -60,7 +60,7 @@
 </div>
 
 <div class="card grid grid-cols-4 justify-center items-center">
-<img class="shadow rounded-full h-auto align-middle border-none" src="./team-images/cavid.jpg" width="100px" />
+<img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/cavid.jpg" width="100px" />
 <p class="grid-colspan-3">
 <b>PhD Student:</b> Javid Baydamirli
 <br>
