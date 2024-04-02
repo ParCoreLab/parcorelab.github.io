@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Abstract | BeyondMoore</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<script type="module">
+
+import "./_observablehq/client.js";
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">BeyondMoore</a></li>
+  </ol>
+  <div id="observablehq-search"><input type="search" placeholder="Search"></div>
+  <div id="observablehq-search-results"></div>
+  <script>{const o=document.querySelector("#observablehq-search");o.setAttribute("data-shortcut",`${/Mac|iPhone/.test(navigator.platform)?"\u2318":"Alt-"}K`);const t=o.querySelector("input"),r=()=>import("./_observablehq/search.js");t.addEventListener("focus",r,{once:!0}),t.addEventListener("keydown",r,{once:!0});const a=document.querySelector("#observablehq-sidebar-toggle");addEventListener("keydown",e=>{(e.code==="KeyK"&&e.metaKey&&!e.altKey&&!e.ctrlKey||e.key==="/"&&!e.metaKey&&!e.altKey&&!e.ctrlKey&&e.target===document.body)&&(a.classList.add("observablehq-sidebar-open"),t.focus(),t.select(),e.preventDefault())}),t.addEventListener("blur",()=>a.classList.remove("observablehq-sidebar-open"));}</script>
+  <ol>
+    <li class="observablehq-link observablehq-link-active"><a href="./abstract">Abstract</a></li>
+    <li class="observablehq-link"><a href="./news">News</a></li>
+    <li class="observablehq-link"><a href="./publications">Publications</a></li>
+    <li class="observablehq-link"><a href="./team">Team</a></li>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type), h2:first-child, :not(h1) + h2">
+<nav>
+</nav>
+</aside>
+<div id="observablehq-center">
+<header id="observablehq-header">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  corePlugins: {
+    preflight: false,
+  }
+}
+</script>
+
+<div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: -1.5rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
+<a href="/">
+   <h1>
+      BeyondMoore
+   </h1>
+   </a>
+   <div style="display: flex; flex-grow: 1; justify-content: space-between; align-items: baseline;">
+
+      <span>
+      </span>
+      <span style="display: flex; align-items: baseline; gap: 1.0rem">
+        <a href="abstract"><h4><span>Abstract</span></h4></a>
+        <a href="publications"><h4><span>Publications</span></h4></a>
+        <a href="news"><h4><span>News</span></h4></a>
+        <a href="team"><h4><span>Team</span></h4></a>
+      </span>
+   </div>
+</div>
+</header>
+<main id="observablehq-main" class="observablehq">
+<h1 id="abstract" tabindex="-1"><a class="observablehq-header-anchor" href="#abstract">Abstract</a></h1>
+<style>
+</style>
+<div class="grid grid-cols-2">
+<div class="">
+<p><strong>BeyondMoore</strong> addresses the timely research challenge of solving the software side of the Post Moore crisis. The techno-economical model in computing, known as the Moore’s Law, has led to an exceptionally productive era for humanity and numerous scientific discoveries over the past 50+ years. However, due to the fundamental limits in chip manufacturing we are about to mark the end of Moore’s Law and enter a new era of computing where continued performance improvement will likely emerge from extreme heterogeneity. The new systems are expected to bring a diverse set of hardware accelerators and memory technologies.</p>
+<p><strong>BeyondMoore</strong> has an ambitious goal to develop a software framework that performs static and dynamic optimizations, issues accelerator-initiated data transfers, and reasons about parallel execution strategies that exploit both processor and memory heterogeneity.</p>
+<p><strong>Budget</strong>: 1.5 Million Euros</p>
+</div>
+<img class="" src="./_file/BeyondMoore-DidemUnat.ad4941b1.png" alt="BeyondMoore Timeline" width="100%">
+</div>
+</main>
+<footer id="observablehq-footer">
+<div><div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin: -8rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
+   <span class="w-[80%]">
+     This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 949587).
+   </span>
+  <img src="./_file/erc_logo-150x150.png" alt="ERC Logo" height="100" width="100"/>
+</div></div>
+</footer>
+</div>
