@@ -391,34 +391,40 @@ gap: 5%;
 
 <div class="grid grid-cols-1">
 
-  <div class="card flex gap-5 justify-start items-center align-middle">
+  <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-lg font-semibold font-serif visited:text-blue-900">CPU Free Model</a>
+    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
 
-  <div class="card flex gap-5 justify-start items-center align-middle">
+  <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/gpu-pure-comm-benchmark" class="text-lg font-semibold font-serif visited:text-blue-900">Benchmarks</a>
+    <p class="text-sm">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 
-  <div class="card flex gap-5 justify-start items-center align-middle">
+  <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/snoopie" class="text-lg font-semibold font-serif visited:text-blue-900">Snoopie</a>
+    <p class="text-sm">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </div>
 
-  <div class="card flex gap-5 justify-start items-center align-middle">
+  <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">CPU Free Infused Dace</a>
+    <p class="text-sm">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 
-  <div class="card flex gap-5 justify-start items-center align-middle">
+  <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">Ilya's CUDA Graph</a>
+    <p class="text-sm">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
   </div>
 
-  <div class="card flex gap-5 justify-start items-center align-middle">
+  <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/msasongko17/multigpu_callback" class="text-lg font-semibold font-serif visited:text-blue-900">Multi-GPU Callbacks</a>
+    <p class="text-sm">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
   </div>
 
 </div>
