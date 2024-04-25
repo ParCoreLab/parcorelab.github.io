@@ -389,7 +389,7 @@ gap: 5%;
 
 <hr>
 
-<div class="grid grid-cols-3">
+<div class="grid grid-cols-1">
 
   <div class="card flex gap-5 justify-start items-center align-middle">
     <img width="32" src="./assets/git.webp" />
