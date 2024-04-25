@@ -395,21 +395,30 @@ gap: 5%;
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-lg font-semibold font-serif visited:text-blue-900">CPU Free Model</a>
     <p class="text-sm">This project introduces a fully autonomous execution model for multi-GPU applications, eliminating CPU involvement beyond initial kernel launch. In conventional setups, the CPU orchestrates execution, causing overhead. We propose delegating this control flow entirely to devices, leveraging techniques like persistent kernels and device-initiated communication. Our CPU-free model significantly reduces communication overhead. Demonstrations on 2D/3D Jacobi stencil and Conjugate Gradient solvers show up to a 58.8% improvement in communication latency and a 1.63x speedup for CG on 8 NVIDIA A100 GPUs compared to CPU-controlled baselines.</p>
-  </div>
-
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/gpu-pure-comm-benchmark" class="text-lg font-semibold font-serif visited:text-blue-900">Benchmarks</a>
-    <p class="text-sm">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices.
-
-More details about the project will be available soon. The related paper is under preparation.</p>
+    <img width="100%" src="./assets/CPU-Free-Model.png" />
   </div>
 
   <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/snoopie" class="text-lg font-semibold font-serif visited:text-blue-900">Snoopie</a>
     <p class="text-sm">With data movement posing a significant bottleneck in computing, profiling tools are essential for scaling multi-GPU applications efficiently. However, existing tools focus primarily on single GPU compute operations and lack support for monitoring GPU-GPU transfers and communication library calls. Addressing these gaps, we present Snoopie, an instrumentation-based multi-GPU communication profiling tool. Snoopie accurately tracks peer-to-peer transfers and GPU-centric communication library calls, attributing data movement to specific source code lines and objects. It offers various visualization modes, from system-wide overviews to detailed instructions and addresses, enhancing programmer productivity.</p>
+    <img width="100%" src="./assets/Snoopie.jpg" />
   </div>
+
+  <div class="card flex flex-col justify-start items-center gap-3">
+    <img width="32" src="./assets/git.webp" />
+    <a href="https://github.com/msasongko17/multigpu_callback" class="text-lg font-semibold font-serif visited:text-blue-900">Multi-GPU Callbacks</a>
+    <p class="text-sm">To address resource underutilization in multi-GPU systems, particularly in irregular applications, we propose a GPU-sided resource allocation method. This method dynamically adjusts the number of GPUs in use based on workload changes, utilizing GPU-to-CPU callbacks to request additional devices during kernel execution. We implemented and tested multiple callback methods, measuring their overheads on Nvidia and AMD platforms. Demonstrating the approach in an irregular application like Breadth-First Search (BFS), we achieved a 15.7% reduction in time to solution on average, with callback overheads as low as 6.50 microseconds on AMD and 4.83 microseconds on Nvidia. Additionally, the model can reduce total device usage by up to 35%, improving energy efficiency.</p>
+    <img width="100%" src="./assets/Multi-GPU-callback.png" />
+  </div>
+
+  <div class="card flex flex-col justify-start items-center gap-3">
+    <img width="32" src="./assets/git.webp" />
+    <a href="https://github.com/ParCoreLab/gpu-pure-comm-benchmark" class="text-lg font-semibold font-serif visited:text-blue-900">Benchmarks</a>
+    <p class="text-sm">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. More details about the project will be available soon. The related paper is under preparation.</p>
+  </div>
+
+
 
   <div class="card flex flex-col justify-start items-center gap-3">
     <img width="32" src="./assets/git.webp" />
@@ -423,11 +432,6 @@ More details about the project will be available soon. The related paper is unde
     <p class="text-sm">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
   </div>
 
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/msasongko17/multigpu_callback" class="text-lg font-semibold font-serif visited:text-blue-900">Multi-GPU Callbacks</a>
-    <p class="text-sm">To address resource underutilization in multi-GPU systems, particularly in irregular applications, we propose a GPU-sided resource allocation method. This method dynamically adjusts the number of GPUs in use based on workload changes, utilizing GPU-to-CPU callbacks to request additional devices during kernel execution. We implemented and tested multiple callback methods, measuring their overheads on Nvidia and AMD platforms. Demonstrating the approach in an irregular application like Breadth-First Search (BFS), we achieved a 15.7% reduction in time to solution on average, with callback overheads as low as 6.50 microseconds on AMD and 4.83 microseconds on Nvidia. Additionally, the model can reduce total device usage by up to 35%, improving energy efficiency.</p>
-  </div>
 
 </div>
 
