@@ -36,7 +36,7 @@ toc: false
   margin: 0;
   max-width: 34em;
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 30px;
   font-style: italic;
   font-weight: bold;
   line-height: 1.5;
