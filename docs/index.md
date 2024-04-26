@@ -367,7 +367,7 @@ a {
       id="rect82" width="47.264641" height="259.80017" x="-307.37561" y="-456.49554" transform="scale(-1)" /> </g> </g> </svg>
     <h1>BeyondMoore</h1>
   </div>
-  <h1>Pioneering the Future of Computing</h1>
+  <h2>Pioneering the Future of Computing</h2>
 </div>
 
 <div class="grid grid-cols-1">
