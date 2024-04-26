@@ -556,8 +556,6 @@ BeyondMoore Software Ecosystem
     <img width="500px" src="./assets/Multi-GPU-callback.png" />
     </div>
   </div>
-
-
   <div id="UNICOM" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
