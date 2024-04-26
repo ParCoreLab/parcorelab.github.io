@@ -367,7 +367,7 @@ a {
       id="rect82" width="47.264641" height="259.80017" x="-307.37561" y="-456.49554" transform="scale(-1)" /> </g> </g> </svg>
     <h1>BeyondMoore</h1>
   </div>
-  <h2>Pioneering the Future of Post-Moore Computing</h2>
+  <h1>Pioneering the Future of Computing</h1>
 </div>
 
 <div class="grid grid-cols-1">
@@ -400,7 +400,7 @@ a {
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/didem-unat.png" width="100px" />
     <p class="grid-colspan-3">
-    <b>Head of The Lab:</b> Assoc. Prof. Didem rnat (dunat@ku.edu.tr)
+    <b>PI:</b> Assoc. Prof. Didem Unat (dunat@ku.edu.tr)
     </p>
   </div>
 
@@ -409,7 +409,7 @@ a {
     <p class="grid-colspan-3">
     <b>PostDoc:</b> Dr. Muhammad Aditya Sasongko (msasongko@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Performance Models, Profiling Tools
+    <b>Research Focus:</b> Performance models, profiling tools
     </p>
   </div>
 
@@ -418,7 +418,7 @@ a {
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Ilyas Turimbetov (iturimbetov18@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Graph Execution Models, Multi-GPU Load Balancing.
+    <b>Research Focus:</b> Task graphs, load balancing.
     </p>
   </div>
 
@@ -428,7 +428,7 @@ a {
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Javid Baydamirli (jbaydamirli21@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Taming heterogeneity, programming models
+    <b>Research Focus:</b> Compilers, parallel programming models
     </p>
   </div>
 
@@ -437,7 +437,7 @@ a {
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Doǧan Sağbili (dsagbili17@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Novel Programming models for emerging architectures.
+    <b>Research Focus:</b> Multi-device communication mechanisms.
     </p>
   </div>
 
@@ -460,7 +460,7 @@ a {
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/ismayil.png" width="100px" />
     <p class="grid-colspan-3">
-    <b>Previous Member:</b> Ismayil Ismayilov
+    <b>Alumni:</b> Ismayil Ismayilov
     <br>
     <b>Research Focus:</b> Taming heterogeneity, programming models
     </p>
@@ -469,7 +469,9 @@ a {
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/abdullah.png" width="100px" />
     <p class="grid-colspan-3">
-    <b>Previous Member:</b> Muhammad Abdullah Soyturk
+    <b>Alumni:</b> Muhammad Abdullah Soyturk
+    <br>
+    <b>Research Focus:</b> Scalable deep learning
     </p>
   </div>
 
