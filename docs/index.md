@@ -631,12 +631,11 @@ Publications
 <hr />
 
 <div class="grid">
-    <div class="card"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. </div>
+    <div class="card text-lg"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. </div>
+    <div class="card text-lg"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 </div>
+    <div class="card text-lg"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. </div>
+    <div class="card text-lg"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105. </div>
 </div>
-  <div class="card"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 </div>
-    <div class="card"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. </div>
-    <div class="card"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105.
-    </div>
 
 <hr />
 
