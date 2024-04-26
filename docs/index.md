@@ -562,9 +562,12 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/UniConn" class="text-xl font-semibold font-serif visited:text-teal-700">Unified Communication Library</a>
+    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-serif visited:text-teal-700">Unified Communication Library</a>
     </div>
-    <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. More details about the project will be available soon. The related paper is under preparation.</p>
+    <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. We are also investigating how the available communication libraries for a system perform under different
+message sizes and communication patterns. Thus, we ex-
+tensively benchmark current communication methods for
+single-process, multi-threaded, and multi-process codes. More details about the project will be available soon. The related paper is under preparation.</p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
     <img width="360px" src="./assets/network-topo.png" />
@@ -576,7 +579,7 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
       <img width="32" src="./assets/git.webp" />
-      <a href="https://github.com/ParCoreLab/CPU-Free-Model-Compiler" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model Compiler</a>
+      <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model Compiler</a>
       </div>
     <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
     </div>
@@ -589,7 +592,7 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/BeyondMoore?tab=readme-ov-file#cpu-free-task-graph" class="text-xl font-semibold font-serif visited:text-teal-700">CPU-Free Task Graph</a>
+    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-serif visited:text-teal-700">CPU-Free Task Graph</a>
     </div>
     <p class="text-lg"> We've designed and implemented a lightweight runtime system tailored for CPU-free task graph
     execution in multi-device systems. Our runtime minimizes CPU involvement by handling task graph initialization
