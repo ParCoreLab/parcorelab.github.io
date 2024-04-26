@@ -60,10 +60,14 @@ toc: false
 
 .logo-beyondmore {
     font-family: var(--serif);
-display: flex;
-gap: 5%;
-     align-items: center;
-     justify-items: center;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-items: center;
+}
+
+a {
+    color: rgb(15 118 110) !important;
 }
 
 
@@ -366,73 +370,266 @@ gap: 5%;
   <h2>Pioneering the Future of Post-Moore Computing</h2>
 </div>
 
-<div class="grid grid-rows-4 grid-cols-1">
-  <div class="abstract card grid-rowspan-2">
-    <b class="colored">BeyondMoore</b> addresses the timely research challenge of solving the software side of the
-    <b>Post Moore crisis</b>. The techno-economical model in computing, known as the <b>Moore’s Law</b>, has led to an
-    exceptionally productive era for humanity and numerous scientific discoveries over the past 50+ years. However,
-    due to the fundamental limits in chip manufacturing we are about to mark <b>the end of Moore’s Law</b> and enter a new
-    era of computing where continued performance improvement will likely emerge from <b>extreme heterogeneity</b>. The new
-    systems are expected to bring a diverse set of hardware accelerators and memory technologies.
-  </div>
-  <div class="abstract card grid-rowspan-1">
-    <b class="colored">BeyondMoore</b> has an ambitious goal to develop a software framework that performs <b>static
-      and dynamic optimizations</b>, issues <b>accelerator-initiated data transfers</b>, and reasons about parallel execution
-    strategies that exploit both <b>processor and memory heterogeneity</b>.
+<div class="grid grid-cols-1">
+  <div class="abstract card">
+    <b class="colored">BeyondMoore</b> addresses the timely research challenge of solving the software side of the <b>Post Moore crisis</b>, as
+    Moore's Law reaches its limits in chip manufacturing. This transition requires a shift towards <b>extreme heterogeneity</b>
+    in computing systems. Current programming solutions are host-centric, leading to scalability issues and limited
+    parallelism. BeyondMoore proposes an <b>autonomous execution model</b> where accelerators operate independently,
+    facilitated by a task graph programming abstraction. To efficiently execute this task graph, BeyondMoore develops a
+    software framework that performs static and dynamic optimizations, issues accelerator-initiated data transfers along
+    with supporting tools such as compiler and profiler. Below you can find details of projects comprising BeyondMoore’s
+    software ecosystem.
+
+
+
   </div>
 </div>
 
 
+<hr>
+
 <div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
-  Project Repositories
+  Team
 </div>
 
 <hr>
 
-<div class="grid grid-cols-1">
+<div class="grid grid-cols-3">
 
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-lg font-semibold font-serif visited:text-blue-900">CPU Free Model</a>
-    <p class="text-sm">This project introduces a fully autonomous execution model for multi-GPU applications, eliminating CPU involvement beyond initial kernel launch. In conventional setups, the CPU orchestrates execution, causing overhead. We propose delegating this control flow entirely to devices, leveraging techniques like persistent kernels and device-initiated communication. Our CPU-free model significantly reduces communication overhead. Demonstrations on 2D/3D Jacobi stencil and Conjugate Gradient solvers show up to a 58.8% improvement in communication latency and a 1.63x speedup for CG on 8 NVIDIA A100 GPUs compared to CPU-controlled baselines.</p>
-    <img width="100%" src="./assets/CPU-Free-Model.png" />
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/didem-unat.png" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Head of The Lab:</b> Assoc. Prof. Didem rnat (dunat@ku.edu.tr)
+    </p>
   </div>
 
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/snoopie" class="text-lg font-semibold font-serif visited:text-blue-900">Snoopie</a>
-    <p class="text-sm">With data movement posing a significant bottleneck in computing, profiling tools are essential for scaling multi-GPU applications efficiently. However, existing tools focus primarily on single GPU compute operations and lack support for monitoring GPU-GPU transfers and communication library calls. Addressing these gaps, we present Snoopie, an instrumentation-based multi-GPU communication profiling tool. Snoopie accurately tracks peer-to-peer transfers and GPU-centric communication library calls, attributing data movement to specific source code lines and objects. It offers various visualization modes, from system-wide overviews to detailed instructions and addresses, enhancing programmer productivity.</p>
-    <img width="100%" src="./assets/Snoopie.jpg" />
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/aditya.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>PostDoc:</b> Dr. Muhammad Aditya Sasongko (msasongko@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Performance Models, Profiling Tools
+    </p>
   </div>
 
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/msasongko17/multigpu_callback" class="text-lg font-semibold font-serif visited:text-blue-900">Multi-GPU Callbacks</a>
-    <p class="text-sm">To address resource underutilization in multi-GPU systems, particularly in irregular applications, we propose a GPU-sided resource allocation method. This method dynamically adjusts the number of GPUs in use based on workload changes, utilizing GPU-to-CPU callbacks to request additional devices during kernel execution. We implemented and tested multiple callback methods, measuring their overheads on Nvidia and AMD platforms. Demonstrating the approach in an irregular application like Breadth-First Search (BFS), we achieved a 15.7% reduction in time to solution on average, with callback overheads as low as 6.50 microseconds on AMD and 4.83 microseconds on Nvidia. Additionally, the model can reduce total device usage by up to 35%, improving energy efficiency.</p>
-    <img width="100%" src="./assets/Multi-GPU-callback.png" />
-  </div>
-
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/gpu-pure-comm-benchmark" class="text-lg font-semibold font-serif visited:text-blue-900">Benchmarks</a>
-    <p class="text-sm">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. More details about the project will be available soon. The related paper is under preparation.</p>
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Ilyas.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>PhD Student:</b> Ilyas Turimbetov (iturimbetov18@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Quantum Computing, Digital Annealers, Quantum Algorithms.
+    </p>
   </div>
 
 
-
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">CPU Free Infused Dace</a>
-    <p class="text-sm">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/cavid.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>PhD Student:</b> Javid Baydamirli (jbaydamirli21@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Taming heterogeneity, programming models
+    </p>
   </div>
 
-  <div class="card flex flex-col justify-start items-center gap-3">
-    <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/dace" class="text-lg font-semibold font-serif visited:text-blue-900">Ilya's CUDA Graph</a>
-    <p class="text-sm">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/dogan.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>PhD Student:</b> Doǧan Sağbili (dsagbili17@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Novel Programming models for emerging architectures.
+    </p>
   </div>
 
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/kefah.png" width="100px" />
+    <p class="grid-colspan-3">
+    <b>PhD Student:</b> Mohammad Kefah Taha Issa (missa18@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Peer to peer GPU tracing and profiling.
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/sinemis.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Project Adminsitrative Assistant:</b> Sinemis Temel (stemel@ku.edu.tr)
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/ismayil.png" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Previous Member:</b> Ismayil Ismayilov
+    <br>
+    <b>Research Focus:</b> Taming heterogeneity, programming models
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/abdullah.png" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Previous Member:</b> Muhammad Abdullah Soyturk
+    </p>
+  </div>
 
 </div>
+
+<hr>
+
+
+<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+BeyondMoore Software Ecosystem
+</div>
+
+<hr>
+
+
+<div class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none text-xl grid grid-cols-2 border-separate border-2">
+
+<div>
+
+**_Compiler, Runtime and Execution Models_**
+
+* [CPU-Free Execution Model](#CPU-FREE-MODEL): a fully autonomous execution model for multi-GPU applications
+* [Multi-GPU Callbacks](#MULTI-GPU-CALLBACKS): GPU to CPU callback mechanisms
+* [CPU-Free Task Graph](#CPU-FREE-TASK-GRAPH): a lightweight runtime system tailored for CPU-free task graph execution
+* [CPU-Free Compiler](#CPU-FREE-MODEL-COMPILER): compiler for generating CPU-Free multi-GPU code
+* [Unified Communication Library](#UNICOM): a unified communication library for device-to-device communication
+
+</div>
+
+<div>
+
+**_Profiling Tools_**
+* [Snoopie](#SNOOPIE): A Multi-GPU Communication Profiler and Visualiser
+* [PES AMD vs Intel](#PRECISE-EVENT-SAMPLING): A Precise Event Sampling Benchmark Suite
+
+</div>
+
+</div>
+
+<div class="grid grid-cols-1">
+
+  <div id="CPU-FREE-MODEL" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+        <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+        <img width="32" src="./assets/git.webp" />
+        <h3><a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model</a><h3>
+        </div>
+        <p class="text-lg">This project introduces a fully autonomous execution model for multi-GPU applications, eliminating CPU involvement beyond initial kernel launch. In conventional setups, the CPU orchestrates execution, causing overhead. We propose delegating this control flow entirely to devices, leveraging techniques like persistent kernels and device-initiated communication. Our CPU-free model significantly reduces communication overhead. Demonstrations on 2D/3D Jacobi stencil and Conjugate Gradient solvers show up to a 58.8% improvement in communication latency and a 1.63x speedup for CG on 8 NVIDIA A100 GPUs compared to CPU-controlled baselines.</p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+        <img width="500px" src="./assets/CPU-Free-Model.png" />
+    </div>
+  </div>
+
+  <div id="SNOOPIE" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+        <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+        <img width="32" src="./assets/git.webp" />
+        <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">Snoopie</a>
+        </div>
+        <p class="text-lg">With data movement posing a significant bottleneck in computing, profiling tools are essential for scaling multi-GPU applications efficiently. However, existing tools focus primarily on single GPU compute operations and lack support for monitoring GPU-GPU transfers and communication library calls. Addressing these gaps, we present Snoopie, an instrumentation-based multi-GPU communication profiling tool. Snoopie accurately tracks peer-to-peer transfers and GPU-centric communication library calls, attributing data movement to specific source code lines and objects. It offers various visualization modes, from system-wide overviews to detailed instructions and addresses, enhancing programmer productivity.</p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+    <img width="500px" src="./assets/Snoopie.jpg" />
+    </div>
+  </div>
+
+  <div id="MULTI-GPU-CALLBACKS" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+     <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+        <img width="32" src="./assets/git.webp" />
+        <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-serif visited:text-teal-700">Multi-GPU Callbacks</a>
+    </div>
+    <p class="text-lg">To address resource underutilization in multi-GPU systems, particularly in irregular applications, we propose a GPU-sided resource allocation method. This method dynamically adjusts the number of GPUs in use based on workload changes, utilizing GPU-to-CPU callbacks to request additional devices during kernel execution. We implemented and tested multiple callback methods, measuring their overheads on Nvidia and AMD platforms. Demonstrating the approach in an irregular application like Breadth-First Search (BFS), we achieved a 15.7% reduction in time to solution on average, with callback overheads as low as 6.50 microseconds on AMD and 4.83 microseconds on Nvidia. Additionally, the model can reduce total device usage by up to 35%, improving energy efficiency.</p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+    <img width="500px" src="./assets/Multi-GPU-callback.png" />
+    </div>
+  </div>
+
+
+
+  <div id="UNICOM" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+     <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+    <img width="32" src="./assets/git.webp" />
+    <a href="https://github.com/ParCoreLab/UniConn" class="text-xl font-semibold font-serif visited:text-teal-700">Unified Communication Library</a>
+    </div>
+    <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. More details about the project will be available soon. The related paper is under preparation.</p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+    <img width="50%" src="./assets/landscape-placeholder.svg" />
+    </div>
+  </div>
+
+
+  <div id="CPU-FREE-MODEL-COMPILER" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+     <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+      <img width="32" src="./assets/git.webp" />
+      <a href="https://github.com/ParCoreLab/CPU-Free-Model-Compiler" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model Compiler</a>
+      </div>
+    <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+    <img width="50%" src="./assets/landscape-placeholder.svg" />
+    </div>
+  </div>
+
+  <div id="CPU-FREE-TASK-GRAPH" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+     <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+    <img width="32" src="./assets/git.webp" />
+    <a href="https://github.com/ParCoreLab/BeyondMoore?tab=readme-ov-file#cpu-free-task-graph" class="text-xl font-semibold font-serif visited:text-teal-700">CPU-Free Task Graph</a>
+    </div>
+    <p class="text-lg"> We've designed and implemented a lightweight runtime system tailored for CPU-free task graph
+    execution in multi-device systems. Our runtime minimizes CPU involvement by handling task graph initialization
+    exclusively, while executing all subsequent operations on the GPU side. This runtime system provides online
+    scheduling of graph nodes, monitors GPU resource usage, manages memory allocation and data transfers, and
+    synchronously tracks task dependencies. By accepting computational graphs as input, originally designed for single
+    GPUs, it seamlessly scales to multiple GPUs without necessitating code modifications. <cr/> More details about the
+    project will be available soon. The related paper is under review. </p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+    <img width="50%" src="./assets/landscape-placeholder.svg" />
+    </div>
+  </div>
+
+  <div id="PRECISE-EVENT-SAMPLING" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+     <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+    <img width="32" src="./assets/git.webp" />
+    <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-serif visited:text-teal-700">Percise Event Sampling</a>
+    </div>
+    <p class="text-lg">
+    To Be Added
+    </p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+    <img width="50%" src="./assets/landscape-placeholder.svg" />
+    </div>
+  </div>
+
+  </div>
+
+<hr />
+<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+Publications
+</div>
+<hr />
+
+<div class="grid">
+    <div class="card"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/pdf/10.1145/3642961#page=8">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 </div>
+    <div class="card"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. </div>
+    <div class="card"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NR70RpYAAAAJ&sortby=pubdate&citation_for_view=NR70RpYAAAAJ:35N4QoGY0k4C">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105. </div>
+    <div class="card"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing.
+</div>
+</div>
+
+
+
 
 <img class="hidden none" src="./assets/erc_logo-150x150.png" />
