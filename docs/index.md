@@ -568,7 +568,7 @@ BeyondMoore Software Ecosystem
     <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. More details about the project will be available soon. The related paper is under preparation.</p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="50%" src="./assets/network-topo.png" />
+    <img width="500px" src="./assets/network-topo.png" />
     </div>
   </div>
 
@@ -582,7 +582,7 @@ BeyondMoore Software Ecosystem
     <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="40%" src="./assets/dace-compiler.png" />
+    <img width="500px" src="./assets/dace-compiler.png" />
     </div>
   </div>
 
@@ -601,7 +601,7 @@ BeyondMoore Software Ecosystem
     project will be available soon. The related paper is under review. </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="40%" src="./assets/task-graph-Ilyas.png" />
+    <img width="500px" src="./assets/task-graph-Ilyas.png" />
     </div>
   </div>
 
@@ -616,7 +616,7 @@ BeyondMoore Software Ecosystem
     </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="50%" src="./assets/PES-comparison.png" />
+    <img width="500px" src="./assets/PES-comparison.png" />
     </div>
   </div>
 
