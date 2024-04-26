@@ -599,7 +599,7 @@ BeyondMoore Software Ecosystem
   </div>
 
   <div id="PRECISE-EVENT-SAMPLING" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
-    <div clas="flex flex-col justify-start">
+    <div clas="flex flex-col justify-start" style="width: 60%">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-serif visited:text-teal-700">Percise Event Sampling</a>
@@ -625,11 +625,10 @@ Publications
     <div class="card"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/pdf/10.1145/3642961#page=8">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 </div>
     <div class="card"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. </div>
     <div class="card"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NR70RpYAAAAJ&sortby=pubdate&citation_for_view=NR70RpYAAAAJ:35N4QoGY0k4C">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105. </div>
-    <div class="card"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing.
+    <div class="card"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. </div>
 </div>
-</div>
 
 
-
+<hr />
 
 <img class="hidden none" src="./assets/erc_logo-150x150.png" />
