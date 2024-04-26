@@ -529,7 +529,7 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
         <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./assets/git.webp" />
-        <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">Snoopie</a>
+        <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>
         </div>
         <p class="text-lg">With data movement posing a significant bottleneck in computing, profiling tools are essential for scaling multi-GPU applications efficiently. However, existing tools focus primarily on single GPU compute operations and lack support for monitoring GPU-GPU transfers and communication library calls. Addressing these gaps, we present Snoopie, an instrumentation-based multi-GPU communication profiling tool. Snoopie accurately tracks peer-to-peer transfers and GPU-centric communication library calls, attributing data movement to specific source code lines and objects. It offers various visualization modes, from system-wide overviews to detailed instructions and addresses, enhancing programmer productivity.</p>
          <p>
@@ -567,7 +567,7 @@ BeyondMoore Software Ecosystem
     <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. More details about the project will be available soon. The related paper is under preparation.</p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="300px" src="./assets/network-topo.png" />
+    <img width="360px" src="./assets/network-topo.png" />
     </div>
   </div>
 
@@ -581,7 +581,7 @@ BeyondMoore Software Ecosystem
     <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="500px" src="./assets/dace-compiler.png" />
+    <img width="400px" src="./assets/dace-compiler.png" />
     </div>
   </div>
 
@@ -600,7 +600,7 @@ BeyondMoore Software Ecosystem
     project will be available soon. The related paper is under review. </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="500px" src="./assets/task-graph-Ilyas.png" />
+    <img width="400px" src="./assets/task-graph-Ilyas.png" />
     </div>
   </div>
 
@@ -612,7 +612,8 @@ BeyondMoore Software Ecosystem
     </div>
     <p class="text-lg">
     Precise event sampling, a profiling feature in commodity processors, accurately pinpoints instructions triggering hardware events. While widely utilized, support from vendors varies, impacting accuracy, stability, overhead, and functionality. Our study benchmarks Intel PEBS and AMD IBS, revealing PEBS's finer-grained accuracy and IBS's richer information but lower stability. PEBS incurs lower time overhead, while IBS suffers from accuracy issues. OS signal delivery adds significant time overhead. Both PEBS and IBS exhibit sampling bias. Our findings hold in a full-fledged profiling tool on modern Intel and AMD machines. This comparison offers valuable insights for hardware designers and profiling tool developers.
-      
+         </p>
+    <p>
     All the artifacts and benchmarks can be found <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-serif visited:text-teal-700">here.</a>
     </p>
     </div>
