@@ -48,7 +48,7 @@ tailwind.config = {
         <a href="abstract"><h4><span>Abstract</span></h4></a>
         <a href="team"><h4><span>Team</span></h4></a>
         <a href="publications"><h4><span>Publications</span></h4></a>
-        <a href="news"><h4><span>News</span></h4></a>     
+        <a href="news"><h4><span>News</span></h4></a>
       </span>
    </div>
 </div>`,
@@ -58,7 +58,7 @@ tailwind.config = {
    <span class="w-[80%]">
      This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 949587).
    </span>
-  <img src="./_file/assets/erc_logo-150x150.8f2998a7.png" alt="ERC Logo" height="100" width="100"/>
+  <img src="./_file/assets/LOGO_ERC.4fe079ee.jpg" alt="ERC Logo" height="100" width="100"/>
 </div>`,
 
   // toc: true, // whether to show the table of contents
