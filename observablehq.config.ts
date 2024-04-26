@@ -45,10 +45,10 @@ tailwind.config = {
       <span>
       </span>
       <span style="display: flex; align-items: baseline; gap: 1.0rem">
-        <a href="abstract"><h4><span>Abstract</span></h4></a>
-        <a href="team"><h4><span>Team</span></h4></a>
-        <a href="publications"><h4><span>Publications</span></h4></a>
-        <a href="news"><h4><span>News</span></h4></a>
+        <a href="#ABSTRACT"><h4><span>Abstract</span></h4></a>
+        <a href="#TEAM"><h4><span>Team</span></h4></a>
+        <a href="#PROJECTS"><h4><span>Projects</span></h4></a>
+        <a href="#PUBLICATIONS"><h4><span>Publications</span></h4></a>
       </span>
    </div>
 </div>`,

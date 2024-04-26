@@ -73,7 +73,7 @@ a {
 
 </style>
 
-<div class="hero">
+<div id="ABSTRACT" class="hero">
 
   <div class="logo-beyondmore">
     <svg version="1.1" id="svg1" width="20%" height="20%" viewBox="0 0 731 727" sodipodi:docname="beyondmoore-logo.svg"
@@ -389,7 +389,7 @@ a {
 
 <hr>
 
-<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+<div id="TEAM" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
   Team
 </div>
 
@@ -480,7 +480,7 @@ a {
 <hr>
 
 
-<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+<div id="PROJECTS" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
 BeyondMoore Software Ecosystem
 </div>
 
@@ -625,7 +625,7 @@ BeyondMoore Software Ecosystem
   </div>
 
 <hr />
-<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+<div id="PUBLICATIONS" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
 Publications
 </div>
 <hr />
