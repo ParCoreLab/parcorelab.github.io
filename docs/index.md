@@ -516,7 +516,7 @@ BeyondMoore Software Ecosystem
         <h3><a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model</a><h3>
         </div>
         <p class="text-lg">This project introduces a fully autonomous execution model for multi-GPU applications, eliminating CPU involvement beyond initial kernel launch. In conventional setups, the CPU orchestrates execution, causing overhead. We propose delegating this control flow entirely to devices, leveraging techniques like persistent kernels and device-initiated communication. Our CPU-free model significantly reduces communication overhead. Demonstrations on 2D/3D Jacobi stencil and Conjugate Gradient solvers show up to a 58.8% improvement in communication latency and a 1.63x speedup for CG on 8 NVIDIA A100 GPUs compared to CPU-controlled baselines.</p>
-          <p> 
+          <p>
          <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
@@ -532,7 +532,7 @@ BeyondMoore Software Ecosystem
         <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">Snoopie</a>
         </div>
         <p class="text-lg">With data movement posing a significant bottleneck in computing, profiling tools are essential for scaling multi-GPU applications efficiently. However, existing tools focus primarily on single GPU compute operations and lack support for monitoring GPU-GPU transfers and communication library calls. Addressing these gaps, we present Snoopie, an instrumentation-based multi-GPU communication profiling tool. Snoopie accurately tracks peer-to-peer transfers and GPU-centric communication library calls, attributing data movement to specific source code lines and objects. It offers various visualization modes, from system-wide overviews to detailed instructions and addresses, enhancing programmer productivity.</p>
-         <p> 
+         <p>
          <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
@@ -548,9 +548,9 @@ BeyondMoore Software Ecosystem
         <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-serif visited:text-teal-700">Multi-GPU Callbacks</a>
     </div>
     <p class="text-lg">To address resource underutilization in multi-GPU systems, particularly in irregular applications, we propose a GPU-sided resource allocation method. This method dynamically adjusts the number of GPUs in use based on workload changes, utilizing GPU-to-CPU callbacks to request additional devices during kernel execution. We implemented and tested multiple callback methods, measuring their overheads on Nvidia and AMD platforms. Demonstrating the approach in an irregular application like Breadth-First Search (BFS), we achieved a 15.7% reduction in time to solution on average, with callback overheads as low as 6.50 microseconds on AMD and 4.83 microseconds on Nvidia. Additionally, the model can reduce total device usage by up to 35%, improving energy efficiency.</p>
-         <p> 
+         <p>
          <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
-          </p>      
+          </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
     <img width="500px" src="./assets/Multi-GPU-callback.png" />
@@ -633,7 +633,7 @@ Publications
 </div>
   <div class="card"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 </div>
     <div class="card"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. </div>
-    <div class="card"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105. 
+    <div class="card"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105.
     </div>
 
 <hr />
