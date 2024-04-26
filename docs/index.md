@@ -582,7 +582,7 @@ BeyondMoore Software Ecosystem
     <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="50%" src="./assets/dace-compiler.png" />
+    <img width="40%" src="./assets/dace-compiler.png" />
     </div>
   </div>
 
