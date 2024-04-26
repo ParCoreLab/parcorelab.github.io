@@ -418,7 +418,7 @@ a {
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Ilyas Turimbetov (iturimbetov18@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Quantum Computing, Digital Annealers, Quantum Algorithms.
+    <b>Research Focus:</b> Graph Execution Models, Multi-GPU Load Balancing.
     </p>
   </div>
 
