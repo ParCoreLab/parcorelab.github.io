@@ -29,12 +29,12 @@ tailwind.config = {
 </script>
 <style>
 * {
-  font-family: Georgia, sans-serif !important;
+  font-family: Arial, sans-serif !important;
 }
 
 </style>
 
-<div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: -1.5rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
+<div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: 2rem -2rem 2rem -2rem; padding: 1rem 0rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
 <a href="/">
    <h1>
       BeyondMoore

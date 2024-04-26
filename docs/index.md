@@ -8,10 +8,13 @@ toc: false
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: var(--serif);
   margin: 4rem 0 8rem;
   text-wrap: balance;
   text-align: center;
+}
+
+ul {
+    max-width: 3000px !important;
 }
 
 .hero h1 {
@@ -35,7 +38,6 @@ toc: false
 .hero h2 {
   margin: 0;
   max-width: 34em;
-  font-family: var(--serif);
   font-size: 30px;
   font-style: italic;
   font-weight: bold;
@@ -44,7 +46,6 @@ toc: false
 }
 
 .abstract {
-  font-family: var(--serif);
   margin: 0;
   font-size: 20px;
   font-style: initial;
@@ -59,7 +60,6 @@ toc: false
 }
 
 .logo-beyondmore {
-    font-family: var(--serif);
     display: flex;
     gap: 5%;
     align-items: center;
@@ -513,11 +513,11 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
         <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./assets/git.webp" />
-        <h3><a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-serif visited:text-teal-700">CPU-Free Execution Model</a><h3>
+        <h3><a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-sans visited:text-teal-700">CPU-Free Execution Model</a><h3>
         </div>
         <p class="text-lg">This project introduces a fully autonomous execution model for multi-GPU applications, eliminating CPU involvement beyond initial kernel launch. In conventional setups, the CPU orchestrates execution, causing overhead. We propose delegating this control flow entirely to devices, leveraging techniques like persistent kernels and device-initiated communication. Our CPU-free model significantly reduces communication overhead. Demonstrations on 2D/3D Jacobi stencil and Conjugate Gradient solvers show up to a 58.8% improvement in communication latency and a 1.63x speedup for CG on 8 NVIDIA A100 GPUs compared to CPU-controlled baselines.</p>
           <p>
-         <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
+         <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
@@ -529,11 +529,11 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
         <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./assets/git.webp" />
-        <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>
+        <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-sans visited:text-teal-700">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>
         </div>
         <p class="text-lg">With data movement posing a significant bottleneck in computing, profiling tools are essential for scaling multi-GPU applications efficiently. However, existing tools focus primarily on single GPU compute operations and lack support for monitoring GPU-GPU transfers and communication library calls. Addressing these gaps, we present Snoopie, an instrumentation-based multi-GPU communication profiling tool. Snoopie accurately tracks peer-to-peer transfers and GPU-centric communication library calls, attributing data movement to specific source code lines and objects. It offers various visualization modes, from system-wide overviews to detailed instructions and addresses, enhancing programmer productivity.</p>
          <p>
-         <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
+         <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
@@ -545,11 +545,11 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./assets/git.webp" />
-        <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-serif visited:text-teal-700">GPU to CPU Callbacks</a>
+        <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-sans visited:text-teal-700">GPU to CPU Callbacks</a>
     </div>
     <p class="text-lg">To address resource underutilization in multi-GPU systems, particularly in irregular applications, we propose a GPU-sided resource allocation method. This method dynamically adjusts the number of GPUs in use based on workload changes, utilizing GPU-to-CPU callbacks to request additional devices during kernel execution. We implemented and tested multiple callback methods, measuring their overheads on Nvidia and AMD platforms. Demonstrating the approach in an irregular application like Breadth-First Search (BFS), we achieved a 15.7% reduction in time to solution on average, with callback overheads as low as 6.50 microseconds on AMD and 4.83 microseconds on Nvidia. Additionally, the model can reduce total device usage by up to 35%, improving energy efficiency.</p>
          <p>
-         <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
+         <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
@@ -560,7 +560,7 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-serif visited:text-teal-700">Unified Communication Library</a>
+    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">Unified Communication Library</a>
     </div>
     <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. We are also investigating how the available communication libraries for a system perform under different
 message sizes and communication patterns. Thus, we ex-
@@ -577,7 +577,7 @@ single-process, multi-threaded, and multi-process codes. More details about the 
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
       <img width="32" src="./assets/git.webp" />
-      <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model Compiler</a>
+      <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">CPU Free Model Compiler</a>
       </div>
     <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
     </div>
@@ -590,7 +590,7 @@ single-process, multi-threaded, and multi-process codes. More details about the 
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-serif visited:text-teal-700">CPU-Free Task Graph</a>
+    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">CPU-Free Task Graph</a>
     </div>
     <p class="text-lg"> We've designed and implemented a lightweight runtime system tailored for CPU-free task graph
     execution in multi-device systems. Our runtime minimizes CPU involvement by handling task graph initialization
@@ -609,13 +609,13 @@ single-process, multi-threaded, and multi-process codes. More details about the 
     <div clas="flex flex-col justify-start" style="width: 60%">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-serif visited:text-teal-700">Precise Event Sampling</a>
+    <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-sans visited:text-teal-700">Precise Event Sampling</a>
     </div>
     <p class="text-lg">
     Precise event sampling, a profiling feature in commodity processors, accurately pinpoints instructions triggering hardware events. While widely utilized, support from vendors varies, impacting accuracy, stability, overhead, and functionality. Our study benchmarks Intel PEBS and AMD IBS, revealing PEBS's finer-grained accuracy and IBS's richer information but lower stability. PEBS incurs lower time overhead, while IBS suffers from accuracy issues. OS signal delivery adds significant time overhead. Both PEBS and IBS exhibit sampling bias. Our findings hold in a full-fledged profiling tool on modern Intel and AMD machines. This comparison offers valuable insights for hardware designers and profiling tool developers.
          </p>
     <p>
-    All the artifacts and benchmarks can be found <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-serif visited:text-teal-700">here.</a>
+    All the artifacts and benchmarks can be found <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-sans visited:text-teal-700">here.</a>
     </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
