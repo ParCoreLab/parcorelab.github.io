@@ -378,8 +378,8 @@ a {
     parallelism. BeyondMoore proposes an <b>autonomous execution model</b> where accelerators operate independently,
     facilitated by a task graph programming abstraction. To efficiently execute this task graph, BeyondMoore develops a
     software framework that performs static and dynamic optimizations, issues accelerator-initiated data transfers along
-    with supporting tools such as compiler and profiler. Below you can find details of projects comprising BeyondMoore’s
-    software ecosystem.
+    with supporting tools such as compiler and profiler. Below you can find details of projects comprising <b>BeyondMoore’s
+    software ecosystem </b>.
 
 
 
@@ -487,7 +487,7 @@ BeyondMoore Software Ecosystem
 <hr>
 
 
-<div class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none text-xl grid grid-cols-2 border-separate border-2">
+<div class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none text-xl grid  border-separate border-2">
 
 <div>
 
@@ -498,10 +498,6 @@ BeyondMoore Software Ecosystem
 * [CPU-Free Task Graph](#CPU-FREE-TASK-GRAPH): a lightweight runtime system tailored for CPU-free task graph execution
 * [CPU-Free Compiler](#CPU-FREE-MODEL-COMPILER): compiler for generating CPU-Free multi-GPU code
 * [Unified Communication Library](#UNICOM): a unified communication library for device-to-device communication
-
-</div>
-
-<div>
 
 **_Profiling Tools_**
 * [Snoopie](#SNOOPIE): A Multi-GPU Communication Profiler and Visualiser
