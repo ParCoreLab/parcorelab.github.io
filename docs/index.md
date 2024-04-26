@@ -497,7 +497,7 @@ BeyondMoore Software Ecosystem
 * [Multi-GPU Callbacks](#MULTI-GPU-CALLBACKS): GPU to CPU callback mechanisms
 * [CPU-Free Task Graph](#CPU-FREE-TASK-GRAPH): a lightweight runtime system tailored for CPU-free task graph execution
 * [CPU-Free Compiler](#CPU-FREE-MODEL-COMPILER): compiler for generating CPU-Free multi-GPU code
-* [Unified Communication Library](#UNICOM): a unified communication library for device-to-device communication
+* [Unified Communication Library](#UNICONN): a unified communication library for device-to-device communication
 
 **_Profiling Tools_**
 * [Snoopie](#SNOOPIE): A Multi-GPU Communication Profiler and Visualiser
@@ -556,7 +556,7 @@ BeyondMoore Software Ecosystem
     <img width="500px" src="./assets/Multi-GPU-callback.png" />
     </div>
   </div>
-  <div id="UNICOM" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="UNICONN" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
@@ -568,7 +568,7 @@ tensively benchmark current communication methods for
 single-process, multi-threaded, and multi-process codes. More details about the project will be available soon. The related paper is under preparation.</p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="360px" src="./assets/network-topo.png" />
+    <img width="400px" src="./assets/network-topo.png" />
     </div>
   </div>
 
