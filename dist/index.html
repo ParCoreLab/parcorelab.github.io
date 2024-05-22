@@ -15,24 +15,6 @@
 import "./_observablehq/client.js";
 
 </script>
-<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
-<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
-<nav id="observablehq-sidebar">
-  <ol>
-    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
-    <li class="observablehq-link observablehq-link-active"><a href="./">BeyondMoore</a></li>
-  </ol>
-  <div id="observablehq-search"><input type="search" placeholder="Search"></div>
-  <div id="observablehq-search-results"></div>
-  <script>{const o=document.querySelector("#observablehq-search");o.setAttribute("data-shortcut",`${/Mac|iPhone/.test(navigator.platform)?"\u2318":"Alt-"}K`);const t=o.querySelector("input"),r=()=>import("./_observablehq/search.js");t.addEventListener("focus",r,{once:!0}),t.addEventListener("keydown",r,{once:!0});const a=document.querySelector("#observablehq-sidebar-toggle");addEventListener("keydown",e=>{(e.code==="KeyK"&&e.metaKey&&!e.altKey&&!e.ctrlKey||e.key==="/"&&!e.metaKey&&!e.altKey&&!e.ctrlKey&&e.target===document.body)&&(a.classList.add("observablehq-sidebar-open"),t.focus(),t.select(),e.preventDefault())}),t.addEventListener("blur",()=>a.classList.remove("observablehq-sidebar-open"));}</script>
-  <ol>
-    <li class="observablehq-link"><a href="./abstract">Abstract</a></li>
-    <li class="observablehq-link"><a href="./news">News</a></li>
-    <li class="observablehq-link"><a href="./publications">Publications</a></li>
-    <li class="observablehq-link"><a href="./team">Team</a></li>
-  </ol>
-</nav>
-<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
 <div id="observablehq-center">
 <header id="observablehq-header">
 
@@ -46,12 +28,12 @@ tailwind.config = {
 </script>
 <style>
 * {
-  font-family: Georgia, sans-serif !important;
+  font-family: Arial, sans-serif !important;
 }
 
 </style>
 
-<div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: -1.5rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
+<div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: 2rem -2rem 2rem -2rem; padding: 1rem 0rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
 <a href="/">
    <h1>
       BeyondMoore
@@ -62,10 +44,10 @@ tailwind.config = {
       <span>
       </span>
       <span style="display: flex; align-items: baseline; gap: 1.0rem">
-        <a href="abstract"><h4><span>Abstract</span></h4></a>
-        <a href="publications"><h4><span>Publications</span></h4></a>
-        <a href="news"><h4><span>News</span></h4></a>
-        <a href="team"><h4><span>Team</span></h4></a>
+        <a href="#ABSTRACT"><h4><span>Abstract</span></h4></a>
+        <a href="#TEAM"><h4><span>Team</span></h4></a>
+        <a href="#PROJECTS"><h4><span>Projects</span></h4></a>
+        <a href="#PUBLICATIONS"><h4><span>Publications</span></h4></a>
       </span>
    </div>
 </div>
@@ -77,10 +59,13 @@ tailwind.config = {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: var(--serif);
   margin: 4rem 0 8rem;
   text-wrap: balance;
   text-align: center;
+}
+
+ul {
+    max-width: 3000px !important;
 }
 
 .hero h1 {
@@ -104,8 +89,7 @@ tailwind.config = {
 .hero h2 {
   margin: 0;
   max-width: 34em;
-  font-family: var(--serif);
-  font-size: 20px;
+  font-size: 30px;
   font-style: italic;
   font-weight: bold;
   line-height: 1.5;
@@ -113,7 +97,6 @@ tailwind.config = {
 }
 
 .abstract {
-  font-family: var(--serif);
   margin: 0;
   font-size: 20px;
   font-style: initial;
@@ -128,7 +111,6 @@ tailwind.config = {
 }
 
 .logo-beyondmore {
-    font-family: var(--serif);
     display: flex;
     gap: 5%;
     align-items: center;
@@ -141,7 +123,7 @@ a {
 
 
 </style>
-<div class="hero">
+<div id="ABSTRACT" class="hero">
   <div class="logo-beyondmore">
     <svg version="1.1" id="svg1" width="20%" height="20%" viewBox="0 0 731 727" sodipodi:docname="beyondmoore-logo.svg" inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <defs id="defs1"></defs> <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="0.90938245" inkscape:cx="548.1742" inkscape:cy="409.61864" inkscape:window-width="1920" inkscape:window-height="1011" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="g1"></sodipodi:namedview> <g inkscape:groupmode="layer" inkscape:label="Image" id="g1"> <g id="g82" style="fill:#c10b25;fill-opacity:1"> <g id="rect1" style="fill:#c10b25;fill-opacity:1"> <path style="color:#000000;fill:#c10b25;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;fill-opacity:1" d="M
       212.18864,30.882252 H 355.88762 V 174.58123 H 212.18864 Z" id="path15"></path> <path style="color:#000000;fill:#c10b25;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;fill-opacity:1" d="M
@@ -274,7 +256,7 @@ a {
       <rect style="fill:#c10b25;fill-opacity:1;stroke:none;stroke-width:56.5122;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" id="rect79" width="47.264641" height="259.48355" x="-308.53714" y="270.48721" transform="rotate(-90)"></rect> <rect style="fill:#c10b25;fill-opacity:1;stroke:none;stroke-width:56.0422;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" id="rect80" width="47.264641" height="255.1857" x="-466.54218" y="202.76114" transform="rotate(-90)"></rect> <rect style="fill:#c10b25;fill-opacity:1;stroke:none;stroke-width:56.3962;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" id="rect81" width="47.264641" height="258.41992" x="-472.41852" y="-531.03186" transform="scale(-1)"></rect> <rect style="fill:#c10b25;fill-opacity:1;stroke:none;stroke-width:56.5466;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" id="rect82" width="47.264641" height="259.80017" x="-307.37561" y="-456.49554" transform="scale(-1)"></rect> </g> </g> </svg>
     <h1>BeyondMoore</h1>
   </div>
-  <h1>Pioneering the Future of Computing</h1>
+  <h2>Pioneering the Future of Computing</h2>
 </div>
 <div class="grid grid-cols-1">
   <div class="abstract card">
@@ -289,7 +271,7 @@ a {
   </div>
 </div>
 <hr>
-<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+<div id="TEAM" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
   Team
 </div>
 <hr>
@@ -364,11 +346,11 @@ a {
   </div>
 </div>
 <hr>
-<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+<div id="PROJECTS" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
 BeyondMoore Software Ecosystem
 </div>
 <hr>
-<div class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none text-xl grid  border-separate border-2">
+<div class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none text-xl grid  border-separate border-2">
 <div>
 <p><strong><em>Compiler, Runtime and Execution Models</em></strong></p>
 <ul>
@@ -376,7 +358,7 @@ BeyondMoore Software Ecosystem
 <li><a href="#MULTI-GPU-CALLBACKS">Multi-GPU Callbacks</a>: GPU to CPU callback mechanisms</li>
 <li><a href="#CPU-FREE-TASK-GRAPH">CPU-Free Task Graph</a>: a lightweight runtime system tailored for CPU-free task graph execution</li>
 <li><a href="#CPU-FREE-MODEL-COMPILER">CPU-Free Compiler</a>: compiler for generating CPU-Free multi-GPU code</li>
-<li><a href="#UNICOM">Unified Communication Library</a>: a unified communication library for device-to-device communication</li>
+<li><a href="#UNICONN">Unified Communication Library</a>: a unified communication library for device-to-device communication</li>
 </ul>
 <p><strong><em>Profiling Tools</em></strong></p>
 <ul>
@@ -385,81 +367,84 @@ BeyondMoore Software Ecosystem
 </ul>
 </div>
 </div>
-<div class="grid grid-cols-1">
-  <div id="CPU-FREE-MODEL" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+<div class="flex flex-col gap-5">
+  <div id="CPU-FREE-MODEL" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
         <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./_file/assets/git.aea14968.webp">
-        <h3><a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model</a></h3><h3>
+        <h3><a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-sans visited:text-teal-700">CPU-Free Execution Model</a></h3><h3>
         </h3></div>
         <p class="text-lg">This project introduces a fully autonomous execution model for multi-GPU applications, eliminating CPU involvement beyond initial kernel launch. In conventional setups, the CPU orchestrates execution, causing overhead. We propose delegating this control flow entirely to devices, leveraging techniques like persistent kernels and device-initiated communication. Our CPU-free model significantly reduces communication overhead. Demonstrations on 2D/3D Jacobi stencil and Conjugate Gradient solvers show up to a 58.8% improvement in communication latency and a 1.63x speedup for CG on 8 NVIDIA A100 GPUs compared to CPU-controlled baselines.</p>
           <p>
-         <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
+         <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
         <img width="500px" src="./_file/assets/CPU-Free-Model.5d0d6917.png">
     </div>
   </div>
-  <div id="SNOOPIE" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="SNOOPIE" class="h-auto  bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
         <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./_file/assets/git.aea14968.webp">
-        <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">Snoopie</a>
+        <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-sans visited:text-teal-700">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>
         </div>
         <p class="text-lg">With data movement posing a significant bottleneck in computing, profiling tools are essential for scaling multi-GPU applications efficiently. However, existing tools focus primarily on single GPU compute operations and lack support for monitoring GPU-GPU transfers and communication library calls. Addressing these gaps, we present Snoopie, an instrumentation-based multi-GPU communication profiling tool. Snoopie accurately tracks peer-to-peer transfers and GPU-centric communication library calls, attributing data movement to specific source code lines and objects. It offers various visualization modes, from system-wide overviews to detailed instructions and addresses, enhancing programmer productivity.</p>
          <p>
-         <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
+         <a href="https://github.com/ParCoreLab/snoopie" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
     <img width="500px" src="./_file/assets/Snoopie.fb32953b.jpg">
     </div>
   </div>
-  <div id="MULTI-GPU-CALLBACKS" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="MULTI-GPU-CALLBACKS" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./_file/assets/git.aea14968.webp">
-        <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-serif visited:text-teal-700">Multi-GPU Callbacks</a>
+        <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-sans visited:text-teal-700">GPU to CPU Callbacks</a>
     </div>
     <p class="text-lg">To address resource underutilization in multi-GPU systems, particularly in irregular applications, we propose a GPU-sided resource allocation method. This method dynamically adjusts the number of GPUs in use based on workload changes, utilizing GPU-to-CPU callbacks to request additional devices during kernel execution. We implemented and tested multiple callback methods, measuring their overheads on Nvidia and AMD platforms. Demonstrating the approach in an irregular application like Breadth-First Search (BFS), we achieved a 15.7% reduction in time to solution on average, with callback overheads as low as 6.50 microseconds on AMD and 4.83 microseconds on Nvidia. Additionally, the model can reduce total device usage by up to 35%, improving energy efficiency.</p>
          <p>
-         <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-serif visited:text-teal-700">More details and git repository of the project.</a>
+         <a href="https://github.com/msasongko17/multigpu_callback" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
           </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
     <img width="500px" src="./_file/assets/Multi-GPU-callback.c2f7436f.png">
     </div>
   </div>
-  <div id="UNICOM" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="UNICONN" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./_file/assets/git.aea14968.webp">
-    <a href="https://github.com/ParCoreLab/UniConn" class="text-xl font-semibold font-serif visited:text-teal-700">Unified Communication Library</a>
+    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">Unified Communication Library</a>
     </div>
-    <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. More details about the project will be available soon. The related paper is under preparation.</p>
+    <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. We are also investigating how the available communication libraries for a system perform under different
+message sizes and communication patterns. Thus, we ex-
+tensively benchmark current communication methods for
+single-process, multi-threaded, and multi-process codes. More details about the project will be available soon. The related paper is under preparation.</p>
     </div>
-    <div class="grid h-[100%] justify-center place-items-center">
-    <img width="500px" src="./_file/assets/network-topo.ddbd74f5.png">
+    <div class="grid h-auto justify-center place-items-center">
+    <img width="400px" src="./_file/assets/network-topo.ddbd74f5.png">
     </div>
   </div>
-  <div id="CPU-FREE-MODEL-COMPILER" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="CPU-FREE-MODEL-COMPILER" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
       <img width="32" src="./_file/assets/git.aea14968.webp">
-      <a href="https://github.com/ParCoreLab/CPU-Free-Model-Compiler" class="text-xl font-semibold font-serif visited:text-teal-700">CPU Free Model Compiler</a>
+      <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">CPU Free Model Compiler</a>
       </div>
     <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
     </div>
-    <div class="grid h-[100%] justify-center place-items-center">
-    <img width="500px" src="./_file/assets/dace-compiler.74cb0d3b.png">
+    <div class="grid h-auto justify-center place-items-center">
+    <img width="300px" src="./_file/assets/dace-compiler.74cb0d3b.png">
     </div>
   </div>
-  <div id="CPU-FREE-TASK-GRAPH" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="CPU-FREE-TASK-GRAPH" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./_file/assets/git.aea14968.webp">
-    <a href="https://github.com/ParCoreLab/BeyondMoore?tab=readme-ov-file#cpu-free-task-graph" class="text-xl font-semibold font-serif visited:text-teal-700">CPU-Free Task Graph</a>
+    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">CPU-Free Task Graph</a>
     </div>
     <p class="text-lg"> We've designed and implemented a lightweight runtime system tailored for CPU-free task graph
     execution in multi-device systems. Our runtime minimizes CPU involvement by handling task graph initialization
@@ -470,45 +455,47 @@ BeyondMoore Software Ecosystem
     project will be available soon. The related paper is under review. </cr></p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="500px" src="./_file/assets/task-graph-Ilyas.a6f13038.png">
+    <img width="400px" src="./_file/assets/task-graph-Ilyas.a6f13038.png">
     </div>
   </div>
-  <div id="PRECISE-EVENT-SAMPLING" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="PRECISE-EVENT-SAMPLING" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start" style="width: 60%">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./_file/assets/git.aea14968.webp">
-    <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-serif visited:text-teal-700">Percise Event Sampling</a>
+    <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-sans visited:text-teal-700">Precise Event Sampling</a>
     </div>
     <p class="text-lg">
-    Precise event sampling, a profiling feature in commodity processors, accurately pinpoints instructions triggering hardware events. While widely utilized, support from vendors varies, impacting accuracy, stability, overhead, and functionality. Our study benchmarks Intel PEBS and AMD IBS, revealing PEBS's finer-grained accuracy and IBS's richer information but lower stability. PEBS incurs lower time overhead, while IBS suffers from accuracy issues. OS signal delivery adds significant time overhead. Both PEBS and IBS exhibit sampling bias. Our findings hold in a full-fledged profiling tool on modern Intel and AMD machines. This comparison offers valuable insights for hardware designers and profiling tool developers.  <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-serif visited:text-teal-700">All the artifacts and benchmarks can be found.</a>
+    Precise event sampling, a profiling feature in commodity processors, accurately pinpoints instructions triggering hardware events. While widely utilized, support from vendors varies, impacting accuracy, stability, overhead, and functionality. Our study benchmarks Intel PEBS and AMD IBS, revealing PEBS's finer-grained accuracy and IBS's richer information but lower stability. PEBS incurs lower time overhead, while IBS suffers from accuracy issues. OS signal delivery adds significant time overhead. Both PEBS and IBS exhibit sampling bias. Our findings hold in a full-fledged profiling tool on modern Intel and AMD machines. This comparison offers valuable insights for hardware designers and profiling tool developers.
+         </p>
+    <p>
+    All the artifacts and benchmarks can be found <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-sans visited:text-teal-700">here.</a>
     </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="500px" src="./assets/PES-comparison.png">
+    <img width="500px" src="./_file/assets/PES-comparison.758ff091.png">
     </div>
   </div>
   </div>
 <hr>
-<div class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+<div id="PUBLICATIONS" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
 Publications
 </div>
 <hr>
 <div class="grid">
-    <div class="card"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. </div>
+<div class="card text-lg"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. <a class="italic" download="" href="./_file/assets/preprint-pdfs/ics24-7-Snoopie-MultiGPU-Communication-Profiler-and-Visualizer.696afe8c.pdf">preprint pdf</a></div>
+    <div class="card text-lg"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 <a class="italic" download="" href="./_file/assets/preprint-pdfs/ExHET_2024_Workshop_____GPU_Offloading-2.994ef335.pdf"> preprint pdf </a> </div>
+    <div class="card text-lg"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. <a class="italic" download="" href="./_file/assets/preprint-pdfs/Multi_GPU_Communication_Schemes_for_Iterative_Solvers__When_CPUs_are_Not_in_Charge___Camera_Ready-1.28163a28.pdf"> preprint pdf </a></div>
+    <div class="card text-lg"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105. <a class="italic" download="" href="./_file/assets/preprint-pdfs/On_the_Precise_Event_Sampling_Supports_of_AMD_vs_Intel_TPDS_minor_revised_pruned.d655060e.pdf"> preprint pdf </a> </div>
 </div>
-  <div class="card"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 </div>
-    <div class="card"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. </div>
-    <div class="card"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105.
-    </div>
 <hr>
 <img class="hidden none" src="./_file/assets/LOGO_ERC.4fe079ee.jpg">
 </main>
 <footer id="observablehq-footer">
 <div><div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin: -8rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest);">
-   <span class="w-[80%]">
+   <span class="text-lg w-[80%]">
      This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 949587).
    </span>
-  <img src="./_file/assets/erc_logo-150x150.8f2998a7.png" alt="ERC Logo" height="100" width="100"/>
+  <img src="./_file/assets/LOGO_ERC.4fe079ee.jpg" alt="ERC Logo" height="100" width="100"/>
 </div></div>
 </footer>
 </div>

@@ -487,7 +487,7 @@ BeyondMoore Software Ecosystem
 <hr>
 
 
-<div class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none text-xl grid  border-separate border-2">
+<div class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none text-xl grid  border-separate border-2">
 
 <div>
 
@@ -507,9 +507,9 @@ BeyondMoore Software Ecosystem
 
 </div>
 
-<div class="grid grid-cols-1">
+<div class="flex flex-col gap-5">
 
-  <div id="CPU-FREE-MODEL" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="CPU-FREE-MODEL" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
         <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./assets/git.webp" />
@@ -525,7 +525,7 @@ BeyondMoore Software Ecosystem
     </div>
   </div>
 
-  <div id="SNOOPIE" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="SNOOPIE" class="h-auto  bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
         <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./assets/git.webp" />
@@ -541,7 +541,7 @@ BeyondMoore Software Ecosystem
     </div>
   </div>
 
-  <div id="MULTI-GPU-CALLBACKS" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="MULTI-GPU-CALLBACKS" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
         <img width="32" src="./assets/git.webp" />
@@ -556,7 +556,7 @@ BeyondMoore Software Ecosystem
     <img width="500px" src="./assets/Multi-GPU-callback.png" />
     </div>
   </div>
-  <div id="UNICONN" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="UNICONN" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
@@ -567,13 +567,13 @@ message sizes and communication patterns. Thus, we ex-
 tensively benchmark current communication methods for
 single-process, multi-threaded, and multi-process codes. More details about the project will be available soon. The related paper is under preparation.</p>
     </div>
-    <div class="grid h-[100%] justify-center place-items-center">
+    <div class="grid h-auto justify-center place-items-center">
     <img width="400px" src="./assets/network-topo.png" />
     </div>
   </div>
 
 
-  <div id="CPU-FREE-MODEL-COMPILER" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="CPU-FREE-MODEL-COMPILER" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
       <img width="32" src="./assets/git.webp" />
@@ -581,12 +581,12 @@ single-process, multi-threaded, and multi-process codes. More details about the 
       </div>
     <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
     </div>
-    <div class="grid h-[100%] justify-center place-items-center">
-    <img width="400px" src="./assets/dace-compiler.png" />
+    <div class="grid h-auto justify-center place-items-center">
+    <img width="300px" src="./assets/dace-compiler.png" />
     </div>
   </div>
 
-  <div id="CPU-FREE-TASK-GRAPH" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="CPU-FREE-TASK-GRAPH" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
@@ -605,7 +605,7 @@ single-process, multi-threaded, and multi-process codes. More details about the 
     </div>
   </div>
 
-  <div id="PRECISE-EVENT-SAMPLING" class="bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-center items-center gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+  <div id="PRECISE-EVENT-SAMPLING" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start" style="width: 60%">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
@@ -632,10 +632,10 @@ Publications
 <hr />
 
 <div class="grid">
-    <div class="card text-lg"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. </div>
-    <div class="card text-lg"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 </div>
-    <div class="card text-lg"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. </div>
-    <div class="card text-lg"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105. </div>
+<div class="card text-lg"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ics24-7-Snoopie-MultiGPU-Communication-Profiler-and-Visualizer.pdf">preprint pdf</a></div>
+    <div class="card text-lg"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 <a class="italic" download href="./assets/preprint-pdfs/ExHET_2024_Workshop_____GPU_Offloading-2.pdf"> preprint pdf </a> </div>
+    <div class="card text-lg"> I Ismayilov, J Baydamirli, D Sagbili, M Wahib, D Unat, <a href="https://dl.acm.org/doi/abs/10.1145/3577193.3593713">Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge</a>, ICS ’23: Proceedings of the 37th International Conference on Supercomputing, 192–202. <a class="italic" download href="./assets/preprint-pdfs/Multi_GPU_Communication_Schemes_for_Iterative_Solvers__When_CPUs_are_Not_in_Charge___Camera_Ready-1.pdf"> preprint pdf </a></div>
+    <div class="card text-lg"> MA Sasongko, M Chabbi, PHJ Kelly, D Unat,  <a href="https://ieeexplore.ieee.org/document/10068807">Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison</a>, IEEE Transactions on Parallel and Distributed Systems, vol. 34, no. 5, pp. 1594-1608, May 2023, doi: 10.1109/TPDS.2023.3257105. <a class="italic" download href="./assets/preprint-pdfs/On_the_Precise_Event_Sampling_Supports_of_AMD_vs_Intel_TPDS_minor_revised_pruned.pdf"> preprint pdf </a> </div>
 </div>
 
 <hr />
