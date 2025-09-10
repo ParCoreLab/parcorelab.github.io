@@ -441,29 +441,29 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/sinemis.jpg" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
     <p class="grid-colspan-3">
     <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Peer to peer GPU tracing and profiling.
+    <b>Research Focus:</b> ?
     </p>
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/abdullah.png" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
     <p class="grid-colspan-3">
-    <b>Master Student:</b> Sinan
+    <b>Master Student:</b> Sinan Ekmekçibaşı (sekmekcibasi23@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Scalable deep learning
+    <b>Research Focus:</b> Multi-GPU Communication Models
     </p>
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/abdullah.png" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
     <p class="grid-colspan-3">
-    <b>Master Student:</b> Emre
+    <b>Master Student:</b> Emre (@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Scalable deep learning
+    <b>Research Focus:</b> ?
     </p>
   </div>  
 
