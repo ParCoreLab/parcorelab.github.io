@@ -405,15 +405,6 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/aditya.jpg" width="100px" />
-    <p class="grid-colspan-3">
-    <b>PostDoc:</b> Dr. Muhammad Aditya Sasongko (msasongko@ku.edu.tr)
-    <br>
-    <b>Research Focus:</b> Performance models, profiling tools
-    </p>
-  </div>
-
-  <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Ilyas.jpg" width="100px" />
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Ilyas Turimbetov (iturimbetov18@ku.edu.tr)
@@ -421,7 +412,6 @@ a {
     <b>Research Focus:</b> Task graphs, load balancing.
     </p>
   </div>
-
 
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/cavid.jpg" width="100px" />
@@ -453,10 +443,41 @@ a {
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/sinemis.jpg" width="100px" />
     <p class="grid-colspan-3">
-    <b>Project Adminsitrative Assistant:</b> Sinemis Temel (stemel@ku.edu.tr)
+    <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Peer to peer GPU tracing and profiling.
     </p>
   </div>
 
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/abdullah.png" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Master Student:</b> Sinan
+    <br>
+    <b>Research Focus:</b> Scalable deep learning
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/abdullah.png" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Master Student:</b> Emre
+    <br>
+    <b>Research Focus:</b> Scalable deep learning
+    </p>
+  </div>  
+
+</div>
+
+<hr>
+
+<div id="ALUMNI" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+  Alumni
+</div>
+
+<hr>
+
+<div class="grid grid-cols-3">
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/ismayil.png" width="100px" />
     <p class="grid-colspan-3">
@@ -475,10 +496,18 @@ a {
     </p>
   </div>
 
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/aditya.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Alumni:</b> Dr. Muhammad Aditya Sasongko 
+    <br>
+    <b>Research Focus:</b> Performance models, profiling tools
+    </p>
+  </div>
+
 </div>
 
 <hr>
-
 
 <div id="PROJECTS" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
 BeyondMoore Software Ecosystem
