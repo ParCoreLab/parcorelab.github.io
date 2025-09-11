@@ -597,8 +597,8 @@ tensively benchmark current communication methods for
 single-process, multi-threaded, and multi-process codes. More details about the project will be available soon. The related paper is under preparation.</p>
   
   <p>
-    All the artifacts and benchmarks can be found <a href="https://github.com/ParCoreLab/Uniconn" class="text-xl font-semibold font-sans visited:text-teal-700">here.</a>
-    </p>
+    <a href="https://github.com/ParCoreLab/Uniconn" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
+  </p>
     </div>
     <div class="grid h-auto justify-center place-items-center">
     <img width="400px" src="./assets/network-topo.png" />
@@ -673,6 +673,10 @@ Library for Portable Multi-GPU Programming
 
 <div class="card text-lg"> Ilyas Turimbetov, Mohamed Wahib, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3721145.3730426">A Device-Side Execution Model for Multi-GPU Task
 Graphs</a> <a href="https://docs.google.com/presentation/d/1po87zQeUQb5l12AXB5RMSuod-o8yPZw32kEBtczr-v0/edit?usp=sharing">(presentation)</a>. In ICS ’25: Proceedings of the 39th ACM International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ICS25______CPU_free_Task_Graph_Execution.pdf">preprint pdf</a>
+</div> 
+
+<div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://ieeexplore.ieee.org/abstract/document/10820747">Autonomous Execution for Multi-GPU Systems:
+Compiler Support</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>
 </div> 
 
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://sc24.supercomputing.org/proceedings/workshops/workshop_pages/ws_p3hpc108.html">Autonomous Execution for Multi-GPU Systems:
