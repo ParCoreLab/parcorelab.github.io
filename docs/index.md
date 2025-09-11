@@ -665,20 +665,19 @@ Publications
 <hr />
 
 <div class="grid">
-
+<div class="card text-lg"> James D. Trotter, Sinan Ekmekçibaşı, Doğan Sağbili, Johannes Langguth, Xing Cai, Didem Unat (2025) CPU- and GPU-initiated Communication Strategies for Conjugate
+Gradient Methods on Large GPU Clusters. In SC 25': The International Conference for High Performance Computing, Networking, Storage, and Analysis. <a class="italic" download href="./assets/preprint-pdfs/SC25_Inno4Scale_aCG.pdf">preprint pdf</a>
+</div> 
 <div class="card text-lg"> Doǧan Sağbili, Sinan Ekmekçibaşı, Khaled Z. Ibrahim, Tan Nguyen, Didem Unat (2025) UNICONN: A Uniform High-Level Communication
 Library for Portable Multi-GPU Programming
  <a href="https://docs.google.com/presentation/d/1Tw4Yl8SLUjSDQwgHEITXthKg_KbjhVUZ3b9he2QTlj4/edit?usp=sharing">(presentation)</a>. In Cluster ’25: Proceedings of the IEEE International Conference on Cluster Computing (IEEE Cluster 2025). <a class="italic" download href="./assets/preprint-pdfs/Cluster_2025_______uniconn_paper__ieee_.pdf">preprint pdf</a>
 </div> 
-
 <div class="card text-lg"> Ilyas Turimbetov, Mohamed Wahib, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3721145.3730426">A Device-Side Execution Model for Multi-GPU Task
 Graphs</a> <a href="https://docs.google.com/presentation/d/1po87zQeUQb5l12AXB5RMSuod-o8yPZw32kEBtczr-v0/edit?usp=sharing">(presentation)</a>. In ICS ’25: Proceedings of the 39th ACM International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ICS25______CPU_free_Task_Graph_Execution.pdf">preprint pdf</a>
 </div> 
-
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://ieeexplore.ieee.org/abstract/document/10820747">Autonomous Execution for Multi-GPU Systems:
 Compiler Support</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>
 </div> 
-
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://sc24.supercomputing.org/proceedings/workshops/workshop_pages/ws_p3hpc108.html">Autonomous Execution for Multi-GPU Systems:
 Compiler Support</a> <a href="https://sc24.conference-program.com/presentation/?id=ws_p3hpc108&sess=sess751">(presentation)</a>. In the 2024 International Workshop on Performance, Portability, and Productivity in HPC. <a class="italic" download href="./assets/preprint-pdfs/sc24-workshop-autonomous-execution-for-multi-gpu-systems-compiler-support.pdf">preprint pdf</a>
 </div> 
