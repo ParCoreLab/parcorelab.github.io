@@ -418,7 +418,7 @@ a {
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Javid Baydamirli (jbaydamirli21@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Compilers, parallel programming models
+    <b>Research Focus:</b> Compilers, parallel programming models.
     </p>
   </div>
 
@@ -445,7 +445,7 @@ a {
     <p class="grid-colspan-3">
     <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Race detection and developer tools
+    <b>Research Focus:</b> Race detection and developer tools.
     </p>
   </div>
 
@@ -454,7 +454,7 @@ a {
     <p class="grid-colspan-3">
     <b>Master Student:</b> Sinan Ekmekçibaşı (sekmekcibasi23@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Multi-GPU Communication Models
+    <b>Research Focus:</b> Multi-GPU Communication Models.
     </p>
   </div>
 
@@ -463,7 +463,7 @@ a {
     <p class="grid-colspan-3">
     <b>Master Student:</b> Emre Düzakın (eduzakin18@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> LLM Based Multi Agent Systems
+    <b>Research Focus:</b> LLM Based Multi Agent Systems.
     </p>
   </div>  
 
@@ -483,7 +483,7 @@ a {
     <p class="grid-colspan-3">
     <b>Alumni:</b> Ismayil Ismayilov
     <br>
-    <b>Research Focus:</b> Taming heterogeneity, programming models
+    <b>Research Focus:</b> Taming heterogeneity, programming models.
     </p>
   </div>
 
@@ -492,7 +492,7 @@ a {
     <p class="grid-colspan-3">
     <b>Alumni:</b> Muhammad Abdullah Soyturk
     <br>
-    <b>Research Focus:</b> Scalable deep learning
+    <b>Research Focus:</b> Scalable deep learning.
     </p>
   </div>
 
@@ -501,7 +501,7 @@ a {
     <p class="grid-colspan-3">
     <b>Alumni:</b> Dr. Muhammad Aditya Sasongko 
     <br>
-    <b>Research Focus:</b> Performance models, profiling tools
+    <b>Research Focus:</b> Performance models, profiling tools.
     </p>
   </div>
 
@@ -666,7 +666,7 @@ Publications
 
 <div class="grid">
 <div class="card text-lg"> James D. Trotter, Sinan Ekmekçibaşı, Doğan Sağbili, Johannes Langguth, Xing Cai, Didem Unat (2025) CPU- and GPU-initiated Communication Strategies for Conjugate
-Gradient Methods on Large GPU Clusters. In SC 25': The International Conference for High Performance Computing, Networking, Storage, and Analysis. <a class="italic" download href="./assets/preprint-pdfs/SC25_Inno4Scale_aCG.pdf">preprint pdf</a>
+Gradient Methods on Large GPU Clusters. In SC ’25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/SC25_Inno4Scale_aCG.pdf">preprint pdf</a>
 </div> 
 <div class="card text-lg"> Doǧan Sağbili, Sinan Ekmekçibaşı, Khaled Z. Ibrahim, Tan Nguyen, Didem Unat (2025) UNICONN: A Uniform High-Level Communication
 Library for Portable Multi-GPU Programming
