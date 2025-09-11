@@ -47,6 +47,7 @@ tailwind.config = {
       <span style="display: flex; align-items: baseline; gap: 1.0rem">
         <a href="#ABSTRACT"><h4><span>Abstract</span></h4></a>
         <a href="#TEAM"><h4><span>Team</span></h4></a>
+        <a href="#ALUMNI"><h4><span>Alumni</span></h4></a>
         <a href="#PROJECTS"><h4><span>Projects</span></h4></a>
         <a href="#PUBLICATIONS"><h4><span>Publications</span></h4></a>
       </span>

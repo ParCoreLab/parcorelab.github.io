@@ -445,7 +445,7 @@ a {
     <p class="grid-colspan-3">
     <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> ?
+    <b>Research Focus:</b> Race detection and developer tools
     </p>
   </div>
 
@@ -459,11 +459,11 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/emre.jpeg" width="100px" />
     <p class="grid-colspan-3">
-    <b>Master Student:</b> Emre (@ku.edu.tr)
+    <b>Master Student:</b> Emre Düzakın (eduzakin18@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> ?
+    <b>Research Focus:</b> LLM Based Multi Agent Systems
     </p>
   </div>  
 
@@ -628,6 +628,8 @@ single-process, multi-threaded, and multi-process codes. More details about the 
     synchronously tracks task dependencies. By accepting computational graphs as input, originally designed for single
     GPUs, it seamlessly scales to multiple GPUs without necessitating code modifications. <cr/> More details about the
     project will be available soon. The related paper is under review. </p>
+
+  <p> All the artifacts and benchmarks can be found <a href="ADDLink" class="text-xl font-semibold font-sans visited:text-teal-700">here.</a> </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
     <img width="400px" src="./assets/task-graph-Ilyas.png" />
@@ -661,6 +663,9 @@ Publications
 <hr />
 
 <div class="grid">
+<div class="card text-lg"> Ilyas Turimbetov, Mohamed Wahib, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3721145.3730426">A Device-Side Execution Model for Multi-GPU Task
+Graphs</a> <a href="https://docs.google.com/presentation/d/1po87zQeUQb5l12AXB5RMSuod-o8yPZw32kEBtczr-v0/edit?usp=sharing">(presentation)</a>. In ICS ’25: Proceedings of the 39th ACM International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ICS25______CPU_free_Task_Graph_Execution.pdf">preprint pdf</a>
+</div> 
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://sc24.supercomputing.org/proceedings/workshops/workshop_pages/ws_p3hpc108.html">Autonomous Execution for Multi-GPU Systems:
 Compiler Support</a> <a href="https://sc24.conference-program.com/presentation/?id=ws_p3hpc108&sess=sess751">(presentation)</a>. In the 2024 International Workshop on Performance, Portability, and Productivity in HPC. <a class="italic" download href="./assets/preprint-pdfs/sc24-workshop-autonomous-execution-for-multi-gpu-systems-compiler-support.pdf">preprint pdf</a>
 </div> 
