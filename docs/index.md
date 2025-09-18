@@ -405,15 +405,6 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/aditya.jpg" width="100px" />
-    <p class="grid-colspan-3">
-    <b>PostDoc:</b> Dr. Muhammad Aditya Sasongko (msasongko@ku.edu.tr)
-    <br>
-    <b>Research Focus:</b> Performance models, profiling tools
-    </p>
-  </div>
-
-  <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Ilyas.jpg" width="100px" />
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Ilyas Turimbetov (iturimbetov18@ku.edu.tr)
@@ -422,13 +413,12 @@ a {
     </p>
   </div>
 
-
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/cavid.jpg" width="100px" />
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Javid Baydamirli (jbaydamirli21@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Compilers, parallel programming models
+    <b>Research Focus:</b> Compilers, parallel programming models.
     </p>
   </div>
 
@@ -451,18 +441,49 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/sinemis.jpg" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
     <p class="grid-colspan-3">
-    <b>Project Adminsitrative Assistant:</b> Sinemis Temel (stemel@ku.edu.tr)
+    <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Race detection and developer tools.
     </p>
   </div>
 
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Master Student:</b> Sinan Ekmekçibaşı (sekmekcibasi23@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Multi-GPU Communication Models.
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/emre.jpeg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Master Student:</b> Emre Düzakın (eduzakin18@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> LLM Based Multi Agent Systems.
+    </p>
+  </div>  
+
+</div>
+
+<hr>
+
+<div id="ALUMNI" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
+  Alumni
+</div>
+
+<hr>
+
+<div class="grid grid-cols-3">
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/ismayil.png" width="100px" />
     <p class="grid-colspan-3">
     <b>Alumni:</b> Ismayil Ismayilov
     <br>
-    <b>Research Focus:</b> Taming heterogeneity, programming models
+    <b>Research Focus:</b> Taming heterogeneity, programming models.
     </p>
   </div>
 
@@ -471,14 +492,22 @@ a {
     <p class="grid-colspan-3">
     <b>Alumni:</b> Muhammad Abdullah Soyturk
     <br>
-    <b>Research Focus:</b> Scalable deep learning
+    <b>Research Focus:</b> Scalable deep learning.
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/aditya.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Alumni:</b> Dr. Muhammad Aditya Sasongko 
+    <br>
+    <b>Research Focus:</b> Performance models, profiling tools.
     </p>
   </div>
 
 </div>
 
 <hr>
-
 
 <div id="PROJECTS" class="font-bold text-3xl colored divide-black outline-black outline-bottom">
 BeyondMoore Software Ecosystem
@@ -560,12 +589,16 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">Unified Communication Library</a>
+    <a href="https://github.com/ParCoreLab/Uniconn" class="text-xl font-semibold font-sans visited:text-teal-700">Unified Communication Library</a>
     </div>
     <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. We are also investigating how the available communication libraries for a system perform under different
 message sizes and communication patterns. Thus, we ex-
 tensively benchmark current communication methods for
 single-process, multi-threaded, and multi-process codes. More details about the project will be available soon. The related paper is under preparation.</p>
+  
+  <p>
+    <a href="https://github.com/ParCoreLab/Uniconn" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
+  </p>
     </div>
     <div class="grid h-auto justify-center place-items-center">
     <img width="400px" src="./assets/network-topo.png" />
@@ -606,7 +639,7 @@ single-process, multi-threaded, and multi-process codes. More details about the 
   </div>
 
   <div id="PRECISE-EVENT-SAMPLING" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
-    <div clas="flex flex-col justify-start" style="width: 60%">
+    <div clas="flex flex-col justify-start" style="width: 60% ">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/PES-artifact" class="text-xl font-semibold font-sans visited:text-teal-700">Precise Event Sampling</a>
@@ -632,6 +665,32 @@ Publications
 <hr />
 
 <div class="grid">
+<div class="card text-lg"> Mohamed Wahib, Muhammed Abdullah Soyturk, Didem Unat (2025) <a href="https://arxiv.org/pdf/2505.14864">Balanced and Elastic End-to-end Training of Dynamic LLMs</a>. <span class="italic"> ACM publication is pending</span>. <a class="italic" download href="./assets/preprint-pdfs/SC25_____Balanced_and_Elastic_End_to_end_Training_of_Dynamic_LLMs-4.pdf">preprint pdf</a> </div> 
+
+<div class="card text-lg">Didem Unat, Anshu Dubey, Emmanuel Jeannot, John Shalf (2025) <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10990038">The Persistent Challenge of Data locality in Post-Exascale Era</a>. In <span class="italic">Computing in Science &amp; Engineering</span>. <a class="italic" download href="./assets/preprint-pdfs/Data_locality_CiSE___Camera_ready-4.pdf">preprint pdf</a> </div> 
+
+<div class="card text-lg"> James D. Trotter, Sinan Ekmekçibaşı, Doğan Sağbili, Johannes Langguth, Xing Cai, Didem Unat (2025) CPU- and GPU-initiated Communication Strategies for Conjugate
+Gradient Methods on Large GPU Clusters. In SC ’25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/SC25_Inno4Scale_aCG.pdf">preprint pdf</a>
+</div> 
+
+<div class="card text-lg"> Doǧan Sağbili, Sinan Ekmekçibaşı, Khaled Z. Ibrahim, Tan Nguyen, Didem Unat (2025) UNICONN: A Uniform High-Level Communication
+Library for Portable Multi-GPU Programming
+ <a href="https://docs.google.com/presentation/d/1Tw4Yl8SLUjSDQwgHEITXthKg_KbjhVUZ3b9he2QTlj4/edit?usp=sharing">(presentation)</a>. In Cluster ’25: Proceedings of the IEEE International Conference on Cluster Computing (IEEE Cluster 2025). <a class="italic" download href="./assets/preprint-pdfs/Cluster_2025_______uniconn_paper__ieee_.pdf">preprint pdf</a>
+</div> 
+
+<div class="card text-lg"> Ilyas Turimbetov, Mohamed Wahib, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3721145.3730426">A Device-Side Execution Model for Multi-GPU Task
+Graphs</a> <a href="https://docs.google.com/presentation/d/1po87zQeUQb5l12AXB5RMSuod-o8yPZw32kEBtczr-v0/edit?usp=sharing">(presentation)</a>. In ICS ’25: Proceedings of the 39th ACM International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ICS25______CPU_free_Task_Graph_Execution.pdf">preprint pdf</a>
+</div> 
+
+<div class="card text-lg"> Fatih Taşyaran, Osman Yasal, José A Morgado, Aleksandar Ilic, Didem Unat, Kamer Kaya (2024) <a href="https://dl.acm.org/doi/10.1109/SCW63240.2024.00193">P-MoVE: performance monitoring and visualization with encoded knowledge</a> <a href="https://docs.google.com/presentation/d/13DueK7-flbTfcH_1vKseGdIUCeZYGr0sKDs6s5HZEgo/edit?usp=sharing">(presentation)</a>. In <span class="italic">SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis</span>. <a class="italic" download href="./assets/preprint-pdfs/RealTimeVisualization___SC_Workshop__.pdf">preprint pdf</a> </div> 
+
+<div class="card text-lg">Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov (2024) <a href="https://arxiv.org/pdf/2409.09874">The landscape of gpu-centric communication</a>. <span class="italic">Under review</span>. <a class="italic" href="https://arxiv.org/pdf/2409.09874">preprint pdf</a> </div> 
+
+<div class="card text-lg">Tugba Torun, Ameer Taweel, Didem Unat (2024) <a href="https://arxiv.org/pdf/2405.04944">A Sparse Tensor Generator with Efficient Feature Extraction</a>. <span class="italic">Accepted for publication; online release pending</span>. <a class="italic" href="https://arxiv.org/pdf/2405.04944">preprint pdf</a> </div>
+
+<div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://ieeexplore.ieee.org/abstract/document/10820747">Autonomous Execution for Multi-GPU Systems:
+Compiler Support</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>
+</div> 
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://sc24.supercomputing.org/proceedings/workshops/workshop_pages/ws_p3hpc108.html">Autonomous Execution for Multi-GPU Systems:
 Compiler Support</a> <a href="https://sc24.conference-program.com/presentation/?id=ws_p3hpc108&sess=sess751">(presentation)</a>. In the 2024 International Workshop on Performance, Portability, and Productivity in HPC. <a class="italic" download href="./assets/preprint-pdfs/sc24-workshop-autonomous-execution-for-multi-gpu-systems-compiler-support.pdf">preprint pdf</a>
 </div> 
