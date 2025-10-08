@@ -490,7 +490,7 @@ a {
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/abdullah.png" width="100px" />
     <p class="grid-colspan-3">
-    <b>Alumni:</b> Muhammad Abdullah Soyturk
+    <b>Alumni:</b> Muhammed Abdullah Soytürk
     <br>
     <b>Research Focus:</b> Scalable deep learning.
     </p>
@@ -531,6 +531,7 @@ BeyondMoore Software Ecosystem
 **_Profiling Tools_**
 * [Snoopie](#SNOOPIE): A Multi-GPU Communication Profiler and Visualiser
 * [PES AMD vs Intel](#PRECISE-EVENT-SAMPLING): A Precise Event Sampling Benchmark Suite
+* [aCG](#ACG): CPU- and GPU-initiated Communication Strategies for CG Methods
 
 </div>
 
@@ -606,13 +607,32 @@ single-process, multi-threaded, and multi-process codes. More details about the 
   </div>
 
 
+<div id="ACG" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+     <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+    <img width="32" src="./assets/git.webp" />
+    <a href="https://github.com/ParCoreLab/aCG" class="text-xl font-semibold font-sans visited:text-teal-700">CPU- and GPU-initiated Communication Strategies for CG Methods</a>
+    </div>
+    <p class="text-lg">This work revisits Conjugate Gradient (CG) parallelization for large-scale multi-GPU systems, addressing challenges from low computational intensity and communication overhead. We develop scalable CG and pipelined CG solvers for NVIDIA and AMD GPUs, employing GPU-aware MPI, NCCL/RCCL, and NVSHMEM for both CPU- and GPU-initiated communication. A monolithic GPU-offloaded variant further enables fully device-driven execution, removing CPU involvement. Optimizations across all designs reduce data transfers and synchronization costs. Evaluations on SuiteSparse matrices and a real finite element application show 8–14% gains over state-of-the-art on single GPUs and 5–15% improvements in strong scaling tests on over 1,000 GPUs. While CPU-driven variants currently benefit from stronger library support, results highlight the promising scalability of GPU-initiated execution for future large-scale systems.</p>
+  
+  <p>
+    <a href="https://github.com/ParCoreLab/aCG" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
+  </p>
+    </div>
+    <div class="grid h-auto justify-center place-items-center">
+    <img width="400px" src="./assets/CG.png" />
+    </div>
+  </div>
+
   <div id="CPU-FREE-MODEL-COMPILER" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
       <img width="32" src="./assets/git.webp" />
       <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">CPU Free Model Compiler</a>
       </div>
-    <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows. Our prototype will be available soon.</p>
+    <p class="text-lg">We're actively crafting a compiler to empower developers to write high-level Python code that compiles into efficient CPU-free device code. This compiler integrates GPU-initiated communication libraries, NVSHMEM for NVIDIA and ROC_SHMEM for AMD, enabling GPU communication directly within Python code. With automatic generation of GPU-initiated communication calls and persistent kernels, we aim to streamline development workflows.</p> <p>
+    <a href="https://github.com/ParCoreLab/CPU-Free-model" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
+    </p>
     </div>
     <div class="grid h-auto justify-center place-items-center">
     <img width="300px" src="./assets/dace-compiler.png" />
@@ -689,7 +709,7 @@ Graphs</a> <a href="https://docs.google.com/presentation/d/1po87zQeUQb5l12AXB5RM
 <div class="card text-lg">Tugba Torun, Ameer Taweel, Didem Unat (2024) <a href="https://arxiv.org/pdf/2405.04944">A Sparse Tensor Generator with Efficient Feature Extraction</a>. <span class="italic">Accepted for publication; online release pending</span>. <a class="italic" href="https://arxiv.org/pdf/2405.04944">preprint pdf</a> </div>
 
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://ieeexplore.ieee.org/abstract/document/10820747">Autonomous Execution for Multi-GPU Systems:
-Compiler Support</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>
+Compiler Support</a> <a href="https://docs.google.com/presentation/d/1nBsANrcLh0Tnc2qqqDL_-6khqo-Y-_mX5kfJbmRwawE/edit?slide=id.p#slide=id.p">(presentation)</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>
 </div> 
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://sc24.supercomputing.org/proceedings/workshops/workshop_pages/ws_p3hpc108.html">Autonomous Execution for Multi-GPU Systems:
 Compiler Support</a> <a href="https://sc24.conference-program.com/presentation/?id=ws_p3hpc108&sess=sess751">(presentation)</a>. In the 2024 International Workshop on Performance, Portability, and Productivity in HPC. <a class="italic" download href="./assets/preprint-pdfs/sc24-workshop-autonomous-execution-for-multi-gpu-systems-compiler-support.pdf">preprint pdf</a>
