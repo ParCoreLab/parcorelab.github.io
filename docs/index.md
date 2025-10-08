@@ -592,10 +592,7 @@ BeyondMoore Software Ecosystem
     <img width="32" src="./assets/git.webp" />
     <a href="https://github.com/ParCoreLab/Uniconn" class="text-xl font-semibold font-sans visited:text-teal-700">Unified Communication Library</a>
     </div>
-    <p class="text-lg">We're undertaking the design of an API for a unified communication library to streamline device-to-device communication within the CPU-free model by aiming to optimize communication efficiency across diverse devices. We are also investigating how the available communication libraries for a system perform under different
-message sizes and communication patterns. Thus, we ex-
-tensively benchmark current communication methods for
-single-process, multi-threaded, and multi-process codes. More details about the project will be available soon. The related paper is under preparation.</p>
+    <p class="text-lg">Modern HPC and AI systems increasingly rely on multi-GPU clusters, where communication libraries such as MPI, NCCL/RCCL, and NVSHMEM enable data movement across GPUs. While these libraries are widely used in frameworks and solver packages, their distinct APIs, synchronization models, and integration mechanisms introduce programming complexity and limit portability. Performance also varies across workloads and system architectures, making it difficult to achieve consistent efficiency. These issues present a significant obstacle to writing portable, high-performance code for large-scale GPU systems. We present Uniconn, a unified, portable high-level C++ communication library that supports both point-to-point and collective operations across GPU clusters. Uniconn enables seamless switching between backends and APIs (host or device) with minimal or no changes to application code. We describe its design and core constructs, and evaluate its performance using network benchmarks, a Jacobi solver, and a Conjugate Gradient solver. Across three supercomputers, we compare Uniconn's overhead against CUDA/ROCm-aware MPI, NCCL/RCCL, and NVSHMEM on up to 64 GPUs. In most cases, Uniconn incurs negligible overhead, typically under 1 % for the Jacobi solver and under 2% for the Conjugate Gradient solver.</p>
   
   <p>
     <a href="https://github.com/ParCoreLab/Uniconn" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
