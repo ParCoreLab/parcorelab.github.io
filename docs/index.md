@@ -531,6 +531,8 @@ BeyondMoore Software Ecosystem
 **_Profiling Tools_**
 * [Snoopie](#SNOOPIE): A Multi-GPU Communication Profiler and Visualiser
 * [PES AMD vs Intel](#PRECISE-EVENT-SAMPLING): A Precise Event Sampling Benchmark Suite
+
+**_Algorithms and Applications_**
 * [aCG](#ACG): CPU- and GPU-initiated Communication Strategies for CG Methods
 
 </div>
@@ -691,25 +693,21 @@ Gradient Methods on Large GPU Clusters. In SC ’25: Proceedings of the Internat
 </div> 
 
 <div class="card text-lg"> Doǧan Sağbili, Sinan Ekmekçibaşı, Khaled Z. Ibrahim, Tan Nguyen, Didem Unat (2025) UNICONN: A Uniform High-Level Communication
-Library for Portable Multi-GPU Programming
- <a href="https://docs.google.com/presentation/d/1Tw4Yl8SLUjSDQwgHEITXthKg_KbjhVUZ3b9he2QTlj4/edit?usp=sharing">(presentation)</a>. In Cluster ’25: Proceedings of the IEEE International Conference on Cluster Computing (IEEE Cluster 2025). <a class="italic" download href="./assets/preprint-pdfs/Cluster_2025_______uniconn_paper__ieee_.pdf">preprint pdf</a>
+Library for Portable Multi-GPU Programming. In Cluster ’25: Proceedings of the IEEE International Conference on Cluster Computing (IEEE Cluster 2025). <a class="italic" download href="./assets/preprint-pdfs/Cluster_2025_______uniconn_paper__ieee_.pdf">preprint pdf</a>,  <a href="https://docs.google.com/presentation/d/1Tw4Yl8SLUjSDQwgHEITXthKg_KbjhVUZ3b9he2QTlj4/edit?usp=sharing">presentation</a>
 </div> 
 
 <div class="card text-lg"> Ilyas Turimbetov, Mohamed Wahib, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3721145.3730426">A Device-Side Execution Model for Multi-GPU Task
-Graphs</a> <a href="https://docs.google.com/presentation/d/1po87zQeUQb5l12AXB5RMSuod-o8yPZw32kEBtczr-v0/edit?usp=sharing">(presentation)</a>. In ICS ’25: Proceedings of the 39th ACM International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ICS25______CPU_free_Task_Graph_Execution.pdf">preprint pdf</a>
+Graphs</a>. In ICS ’25: Proceedings of the 39th ACM International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ICS25______CPU_free_Task_Graph_Execution.pdf">preprint pdf</a>, <a href="https://docs.google.com/presentation/d/1po87zQeUQb5l12AXB5RMSuod-o8yPZw32kEBtczr-v0/edit?usp=sharing">presentation</a>
 </div> 
 
-<div class="card text-lg"> Fatih Taşyaran, Osman Yasal, José A Morgado, Aleksandar Ilic, Didem Unat, Kamer Kaya (2024) <a href="https://dl.acm.org/doi/10.1109/SCW63240.2024.00193">P-MoVE: performance monitoring and visualization with encoded knowledge</a> <a href="https://docs.google.com/presentation/d/13DueK7-flbTfcH_1vKseGdIUCeZYGr0sKDs6s5HZEgo/edit?usp=sharing">(presentation)</a>. In <span class="italic">SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis</span>. <a class="italic" download href="./assets/preprint-pdfs/RealTimeVisualization___SC_Workshop__.pdf">preprint pdf</a> </div> 
+<div class="card text-lg"> Fatih Taşyaran, Osman Yasal, José A Morgado, Aleksandar Ilic, Didem Unat, Kamer Kaya (2024) <a href="https://dl.acm.org/doi/10.1109/SCW63240.2024.00193">P-MoVE: performance monitoring and visualization with encoded knowledge</a>. In <span class="italic">SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis</span>. <a class="italic" download href="./assets/preprint-pdfs/RealTimeVisualization___SC_Workshop__.pdf">preprint pdf</a>, <a href="https://docs.google.com/presentation/d/13DueK7-flbTfcH_1vKseGdIUCeZYGr0sKDs6s5HZEgo/edit?usp=sharing">presentation</a> </div> 
 
 <div class="card text-lg">Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov (2024) <a href="https://arxiv.org/pdf/2409.09874">The landscape of gpu-centric communication</a>. <span class="italic">Under review</span>. <a class="italic" href="https://arxiv.org/pdf/2409.09874">preprint pdf</a> </div> 
 
 <div class="card text-lg">Tugba Torun, Ameer Taweel, Didem Unat (2024) <a href="https://arxiv.org/pdf/2405.04944">A Sparse Tensor Generator with Efficient Feature Extraction</a>. <span class="italic">Accepted for publication; online release pending</span>. <a class="italic" href="https://arxiv.org/pdf/2405.04944">preprint pdf</a> </div>
 
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://ieeexplore.ieee.org/abstract/document/10820747">Autonomous Execution for Multi-GPU Systems:
-Compiler Support</a> <a href="https://docs.google.com/presentation/d/1nBsANrcLh0Tnc2qqqDL_-6khqo-Y-_mX5kfJbmRwawE/edit?slide=id.p#slide=id.p">(presentation)</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>
-</div> 
-<div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://sc24.supercomputing.org/proceedings/workshops/workshop_pages/ws_p3hpc108.html">Autonomous Execution for Multi-GPU Systems:
-Compiler Support</a> <a href="https://sc24.conference-program.com/presentation/?id=ws_p3hpc108&sess=sess751">(presentation)</a>. In the 2024 International Workshop on Performance, Portability, and Productivity in HPC. <a class="italic" download href="./assets/preprint-pdfs/sc24-workshop-autonomous-execution-for-multi-gpu-systems-compiler-support.pdf">preprint pdf</a>
+Compiler Support</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>, <a href="https://docs.google.com/presentation/d/1nBsANrcLh0Tnc2qqqDL_-6khqo-Y-_mX5kfJbmRwawE/edit?slide=id.p#slide=id.p">presentation</a>
 </div> 
 <div class="card text-lg"> Issa, M., Sasongko, M., Turimbetov, I., Baydamirli, J., Sağbili, D., Unat, D. (2024). <a href="https://doi.org/10.1145/3650200.3656597">Snoopie: A Multi-GPU Communication Profiler and Visualizer</a>. In Proceedings of the 38th International Conference on Supercomputing. <a class="italic" download href="./assets/preprint-pdfs/ics24-7-Snoopie-MultiGPU-Communication-Profiler-and-Visualizer.pdf">preprint pdf</a></div>
     <div class="card text-lg"> Ilyas Turimbetov, MA Sasongko, and Didem Unat, <a href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a>, International Workshop on Extreme Heterogeneity Solutions (ExHET), 2024 <a class="italic" download href="./assets/preprint-pdfs/ExHET_2024_Workshop_____GPU_Offloading-2.pdf"> preprint pdf </a> </div>
