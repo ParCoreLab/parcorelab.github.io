@@ -692,8 +692,7 @@ Publications
 Gradient Methods on Large GPU Clusters. In SC ’25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/SC25_Inno4Scale_aCG.pdf">preprint pdf</a>
 </div> 
 
-<div class="card text-lg"> Doǧan Sağbili, Sinan Ekmekçibaşı, Khaled Z. Ibrahim, Tan Nguyen, Didem Unat (2025) UNICONN: A Uniform High-Level Communication
-Library for Portable Multi-GPU Programming. In Cluster ’25: Proceedings of the IEEE International Conference on Cluster Computing (IEEE Cluster 2025). <a class="italic" download href="./assets/preprint-pdfs/Cluster_2025_______uniconn_paper__ieee_.pdf">preprint pdf</a>,  <a href="https://docs.google.com/presentation/d/1Tw4Yl8SLUjSDQwgHEITXthKg_KbjhVUZ3b9he2QTlj4/edit?usp=sharing">presentation</a>
+<div class="card text-lg"> D. Sağbili, S. Ekmekçibaşı, K. Z. Ibrahim, T. Nguyen and D. Unat, <a href="https://ieeexplore.ieee.org/document/11186498">Uniconn: A Uniform High-Level Communication Library for Portable Multi-GPU Programming,</a> 2025 IEEE International Conference on Cluster Computing (CLUSTER), United Kingdom, 2025, pp. 1-12, doi: 10.1109/CLUSTER59342.2025.11186498. <a class="italic" download href="./assets/preprint-pdfs/Cluster_2025_______uniconn_paper__ieee_.pdf">preprint pdf</a>,  <a href="https://docs.google.com/presentation/d/1Tw4Yl8SLUjSDQwgHEITXthKg_KbjhVUZ3b9he2QTlj4/edit?usp=sharing">presentation</a>
 </div> 
 
 <div class="card text-lg"> Ilyas Turimbetov, Mohamed Wahib, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3721145.3730426">A Device-Side Execution Model for Multi-GPU Task
