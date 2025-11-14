@@ -684,12 +684,12 @@ Publications
 <hr />
 
 <div class="grid">
-<div class="card text-lg"> Mohamed Wahib, Muhammed Abdullah Soyturk, Didem Unat (2025) <a href="https://arxiv.org/pdf/2505.14864">Balanced and Elastic End-to-end Training of Dynamic LLMs</a>. <span class="italic"> ACM publication is pending</span>. <a class="italic" download href="./assets/preprint-pdfs/SC25_____Balanced_and_Elastic_End_to_end_Training_of_Dynamic_LLMs-4.pdf">preprint pdf</a> </div> 
+<div class="card text-lg"> Mohamed Wahib, Muhammed Abdullah Soyturk, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3712285.3759775">Balanced and Elastic End-to-end Training of Dynamic LLMs</a>. <span class="italic">  In SC '25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis</span>. <a class="italic" download href="./assets/preprint-pdfs/SC25_____Balanced_and_Elastic_End_to_end_Training_of_Dynamic_LLMs-4.pdf">preprint pdf</a> </div> 
 
 <div class="card text-lg">Didem Unat, Anshu Dubey, Emmanuel Jeannot, John Shalf (2025) <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10990038">The Persistent Challenge of Data locality in Post-Exascale Era</a>. In <span class="italic">Computing in Science &amp; Engineering</span>. <a class="italic" download href="./assets/preprint-pdfs/Data_locality_CiSE___Camera_ready-4.pdf">preprint pdf</a> </div> 
 
-<div class="card text-lg"> James D. Trotter, Sinan Ekmekçibaşı, Doğan Sağbili, Johannes Langguth, Xing Cai, Didem Unat (2025) CPU- and GPU-initiated Communication Strategies for Conjugate
-Gradient Methods on Large GPU Clusters. In SC ’25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/SC25_Inno4Scale_aCG.pdf">preprint pdf</a>
+<div class="card text-lg"> James D. Trotter, Sinan Ekmekçibaşı, Doğan Sağbili, Johannes Langguth, Xing Cai, Didem Unat (2025)<a href="https://dl.acm.org/doi/10.1145/3712285.3759774"> CPU- and GPU-initiated Communication Strategies for Conjugate
+Gradient Methods on Large GPU Clusters</a>. In SC ’25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/SC25_Inno4Scale_aCG.pdf">preprint pdf</a>
 </div> 
 
 <div class="card text-lg"> D. Sağbili, S. Ekmekçibaşı, K. Z. Ibrahim, T. Nguyen and D. Unat, <a href="https://ieeexplore.ieee.org/document/11186498">Uniconn: A Uniform High-Level Communication Library for Portable Multi-GPU Programming,</a> 2025 IEEE International Conference on Cluster Computing (CLUSTER), United Kingdom, 2025, pp. 1-12, doi: 10.1109/CLUSTER59342.2025.11186498. <a class="italic" download href="./assets/preprint-pdfs/Cluster_2025_______uniconn_paper__ieee_.pdf">preprint pdf</a>,  <a href="https://docs.google.com/presentation/d/1Tw4Yl8SLUjSDQwgHEITXthKg_KbjhVUZ3b9he2QTlj4/edit?usp=sharing">presentation</a>
