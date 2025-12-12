@@ -441,16 +441,16 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/hanaa.jpeg" width="100px" />
     <p class="grid-colspan-3">
     <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Race detection and developer tools.
+    <b>Research Focus:</b> Multi-GPU Communication Models.
     </p>
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/placeholder.jpg" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/sinan.jpeg" width="100px" />
     <p class="grid-colspan-3">
     <b>Master Student:</b> Sinan Ekmekçibaşı (sekmekcibasi23@ku.edu.tr)
     <br>
