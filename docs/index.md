@@ -534,6 +534,7 @@ BeyondMoore Software Ecosystem
 
 **_Algorithms and Applications_**
 * [aCG](#ACG): CPU- and GPU-initiated Communication Strategies for CG Methods
+* [DynMo](https://dl.acm.org/doi/10.1145/3712285.3759775): Balanced and Elastic End-to-end Training of Dynamic LLMs
 
 </div>
 
@@ -703,7 +704,7 @@ Graphs</a>. In ICS ’25: Proceedings of the 39th ACM International Conference o
 
 <div class="card text-lg">Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov (2024) <a href="https://arxiv.org/pdf/2409.09874">The landscape of gpu-centric communication</a>. <span class="italic">Under review</span>. <a class="italic" href="https://arxiv.org/pdf/2409.09874">preprint pdf</a> </div> 
 
-<div class="card text-lg">Tugba Torun, Ameer Taweel, Didem Unat (2024) <a href="https://arxiv.org/pdf/2405.04944">A Sparse Tensor Generator with Efficient Feature Extraction</a>. <span class="italic">Accepted for publication; online release pending</span>. <a class="italic" href="https://arxiv.org/pdf/2405.04944">preprint pdf</a> </div>
+<div class="card text-lg">Tugba Torun, Ameer Taweel, Didem Unat (2024) <a href="https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2025.1589033/full">A Sparse Tensor Generator with Efficient Feature Extraction</a>. <span class="italic">Accepted for publication; online release pending</span>. <a class="italic" href="https://arxiv.org/pdf/2405.04944">preprint pdf</a> </div>
 
 <div class="card text-lg"> Javid Baydamirli, Tal Ben Nun, Didem Unat (2024) <a href="https://ieeexplore.ieee.org/abstract/document/10820747">Autonomous Execution for Multi-GPU Systems:
 Compiler Support</a>. In SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. <a class="italic" download href="./assets/preprint-pdfs/P3HPC_____Autonomous_Execution_for_Multi_GPU_Systems__Compiler_Support-2 (1).pdf">preprint pdf</a>, <a href="https://docs.google.com/presentation/d/1nBsANrcLh0Tnc2qqqDL_-6khqo-Y-_mX5kfJbmRwawE/edit?slide=id.p#slide=id.p">presentation</a>
