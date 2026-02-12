@@ -643,7 +643,7 @@ BeyondMoore Software Ecosystem
     <div clas="flex flex-col justify-start">
      <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
     <img width="32" src="./assets/git.webp" />
-    <a href="https://github.com/ParCoreLab/" class="text-xl font-semibold font-sans visited:text-teal-700">CPU-Free Task Graph</a>
+    <a href="https://github.com/ParCoreLab/mustard" class="text-xl font-semibold font-sans visited:text-teal-700">CPU-Free Task Graph</a>
     </div>
     <p class="text-lg"> We've designed and implemented a lightweight runtime system tailored for CPU-free task graph
     execution in multi-device systems. Our runtime minimizes CPU involvement by handling task graph initialization
@@ -652,9 +652,12 @@ BeyondMoore Software Ecosystem
     synchronously tracks task dependencies. By accepting computational graphs as input, originally designed for single
     GPUs, it seamlessly scales to multiple GPUs without necessitating code modifications. <cr/> More details about the
     project will be available soon. The related paper is under review. </p>
+    <p>
+    <a href="https://github.com/ParCoreLab/mustard" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
+    </p>
     </div>
     <div class="grid h-[100%] justify-center place-items-center">
-    <img width="400px" src="./assets/task-graph-Ilyas.png" />
+    <img width="400px" src="./assets/mustard.png" />
     </div>
   </div>
 
