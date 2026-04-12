@@ -706,6 +706,8 @@ Publications
 <hr />
 
 <div class="grid">
+<div class="card text-lg"> Emir Gencer, Mohammad Kefah Taha Issa, Ilyas Turimbetov, James D. Trotter, Didem Unat (2026) <a href="https://arxiv.org/abs/2602.19084">ucTrace: A Multi-Layer Profiling Tool for UCX-driven Communication</a>. <span class="italic">  In IPDPS (40th IEEE International Parallel & Distributed Processing Symposium)</span>.</div> 
+
 <div class="card text-lg"> Mohamed Wahib, Muhammed Abdullah Soyturk, Didem Unat (2025) <a href="https://dl.acm.org/doi/10.1145/3712285.3759775">Balanced and Elastic End-to-end Training of Dynamic LLMs</a>. <span class="italic">  In SC '25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis</span>. <a class="italic" download href="./assets/preprint-pdfs/SC25_____Balanced_and_Elastic_End_to_end_Training_of_Dynamic_LLMs-4.pdf">preprint pdf</a> </div> 
 
 <div class="card text-lg">Didem Unat, Anshu Dubey, Emmanuel Jeannot, John Shalf (2025) <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10990038">The Persistent Challenge of Data locality in Post-Exascale Era</a>. In <span class="italic">Computing in Science &amp; Engineering</span>. <a class="italic" download href="./assets/preprint-pdfs/Data_locality_CiSE___Camera_ready-4.pdf">preprint pdf</a> </div> 
