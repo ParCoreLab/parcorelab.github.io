@@ -531,6 +531,7 @@ BeyondMoore Software Ecosystem
 **_Profiling Tools_**
 * [Snoopie](#SNOOPIE): A Multi-GPU Communication Profiler and Visualiser
 * [PES AMD vs Intel](#PRECISE-EVENT-SAMPLING): A Precise Event Sampling Benchmark Suite
+* [ucTrace](#UCTRACE): A Multi-Layer Profiling Tool for UCX-driven Communication
 
 **_Algorithms and Applications_**
 * [aCG](#ACG): CPU- and GPU-initiated Communication Strategies for CG Methods
@@ -573,6 +574,23 @@ BeyondMoore Software Ecosystem
     <img width="500px" src="./assets/Snoopie.jpg" />
     </div>
   </div>
+
+  <div id="UCTRACE" class="h-auto  bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
+    <div clas="flex flex-col justify-start">
+        <div class="flex flex-row gap-2 justify-start items-center flex-shrink">
+        <img width="32" src="./assets/git.webp" />
+        <a href="https://github.com/ParCoreLab/ucTrace" class="text-xl font-semibold font-sans visited:text-teal-700">ucTrace: A Multi-Layer Profiling Tool for UCX-driven Communication</a>
+        </div>
+        <p class="text-lg">We introduce ucTrace, a novel profiler that exposes and visualizes UCX-driven communication in HPC environments. ucTrace provides insights into MPI workflows by profiling message passing at the UCX level, linking operations between hosts and devices (e.g., GPUs and NICs) directly to their originating MPI functions. Through interactive visualizations of process- and device-specific interactions, ucTrace helps system administrators, library and application developers optimize performance and debug communication patterns in large-scale workloads. We demonstrate ucTrace's features through a wide range of experiments including MPI point-to-point behavior under different UCX settings, Allreduce comparisons across MPI libraries, communication analysis of a linear solver, NUMA binding effects, and profiling of GROMACS MD simulations with GPU acceleration at scale.</p>
+         <p>
+         <a href="https://github.com/ParCoreLab/ucTrace" class="text-xl font-semibold font-sans visited:text-teal-700">More details and git repository of the project.</a>
+          </p>
+    </div>
+    <div class="grid h-[100%] justify-center place-items-center">
+    <img width="500px" src="./assets/numa.png" />
+    </div>
+  </div>
+
 
   <div id="MULTI-GPU-CALLBACKS" class="h-auto bg-gray-100 rounded-s p-4 border-solid border-1 border-gray-200 flex flex-row justify-start items-start gap-5 transform transition-all hover:shadow-gray-100 hover:shadow-lg shadow-none">
     <div clas="flex flex-col justify-start">
