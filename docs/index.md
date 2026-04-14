@@ -395,14 +395,18 @@ a {
 
 <hr>
 
-<div class="grid grid-cols-3">
-
-  <div class="card grid grid-cols-4 justify-center items-center">
+<div class="flex justify-center mb-0">
+  <div class="card grid grid-cols-4 justify-center items-center w-[30%] mb-0">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/didem-unat.png" width="100px" />
-    <p class="grid-colspan-3">
-    <b>PI:</b> Assoc. Prof. Didem Unat (dunat@ku.edu.tr)
+    <p class="col-span-3">
+      <b>PI:</b> Assoc. Prof. Didem Unat
+      <br>
+      <b>Email:</b> dunat@ku.edu.tr
     </p>
   </div>
+</div>
+
+<div class="grid grid-cols-3">
 
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Ilyas.jpg" width="100px" />
@@ -450,6 +454,15 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Amin.JPG" width="100px" />
+    <p class="grid-colspan-3">
+    <b>PhD Student:</b> Amin Ansari (mansari26@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Performance optimization of inference workloads.
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/sinan.jpeg" width="100px" />
     <p class="grid-colspan-3">
     <b>Master Student:</b> Sinan Ekmekçibaşı (sekmekcibasi23@ku.edu.tr)
@@ -466,16 +479,6 @@ a {
     <b>Research Focus:</b> LLM Based Multi Agent Systems.
     </p>
   </div>  
-
-  <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Amin.JPG" width="100px" />
-    <p class="grid-colspan-3">
-    <b>Master Student:</b> Amin Ansari (emarasli26@ku.edu.tr)
-    <br>
-    <b>Research Focus:</b> Performance optimization of inference workloads.
-    </p>
-  </div>
-
 
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/hanaa.jpeg" width="100px" />
