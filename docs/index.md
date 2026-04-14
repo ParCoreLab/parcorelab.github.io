@@ -441,11 +441,11 @@ a {
   </div>
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/hanaa.jpeg" width="100px" />
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/erdem.jpg" width="100px" />
     <p class="grid-colspan-3">
-    <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
+    <b>PhD Student:</b> Erdem Ege Maraşlı (emarasli26@ku.edu.tr)
     <br>
-    <b>Research Focus:</b> Multi-GPU Communication Models.
+    <b>Research Focus:</b> Tracing and profiling of multi-gpu communication 
     </p>
   </div>
 
@@ -467,6 +467,24 @@ a {
     </p>
   </div>  
 
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Amin.JPG" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Master Student:</b> Amin Ansari (emarasli26@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Performance optimization of inference workloads.
+    </p>
+  </div>
+
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/hanaa.jpeg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Master Student:</b> Hanaa Zaqout (hzaqout25@ku.edu.tr)
+    <br>
+    <b>Research Focus:</b> Multi-GPU Communication Models.
+    </p>
+  </div>
 </div>
 
 <hr>
