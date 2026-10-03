@@ -409,15 +409,6 @@ a {
 <div class="grid grid-cols-3">
 
   <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Ilyas.jpg" width="100px" />
-    <p class="grid-colspan-3">
-    <b>PhD Student:</b> Ilyas Turimbetov (iturimbetov18@ku.edu.tr)
-    <br>
-    <b>Research Focus:</b> Task graphs, load balancing.
-    </p>
-  </div>
-
-  <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/cavid.jpg" width="100px" />
     <p class="grid-colspan-3">
     <b>PhD Student:</b> Javid Baydamirli (jbaydamirli21@ku.edu.tr)
@@ -465,20 +456,11 @@ a {
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/sinan.jpeg" width="100px" />
     <p class="grid-colspan-3">
-    <b>Master Student:</b> Sinan Ekmekçibaşı (sekmekcibasi23@ku.edu.tr)
+    <b>PhD Student:</b> Sinan Ekmekçibaşı (sekmekcibasi23@ku.edu.tr)
     <br>
     <b>Research Focus:</b> Multi-GPU Communication Models.
     </p>
   </div>
-
-  <div class="card grid grid-cols-4 justify-center items-center">
-    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/emre.jpeg" width="100px" />
-    <p class="grid-colspan-3">
-    <b>Master Student:</b> Emre Düzakın (eduzakin18@ku.edu.tr)
-    <br>
-    <b>Research Focus:</b> LLM Based Multi Agent Systems.
-    </p>
-  </div>  
 
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/hanaa.jpeg" width="100px" />
@@ -497,8 +479,26 @@ a {
 </div>
 
 <hr>
-
 <div class="grid grid-cols-3">
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/Ilyas.jpg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Alumni:</b> Ilyas Turimbetov
+    <br>
+    <b>Research Focus:</b> Task graphs, load balancing.
+    </p>
+  </div>
+
+  <div class="card grid grid-cols-4 justify-center items-center">
+    <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/emre.jpeg" width="100px" />
+    <p class="grid-colspan-3">
+    <b>Alumni:</b> Emre Düzakın
+    <br>
+    <b>Research Focus:</b> LLM Based Multi Agent Systems.
+    </p>
+  </div>  
+
   <div class="card grid grid-cols-4 justify-center items-center">
     <img class="shadow rounded-full max-w-full h-auto align-middle border-none" src="./team-images/ismayil.png" width="100px" />
     <p class="grid-colspan-3">
